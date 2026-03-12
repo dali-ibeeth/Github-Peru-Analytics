@@ -178,7 +178,6 @@ Sección 10 (Celdas 35-37) → Generación del dashboard web
 | `h_index` | h repos con ≥ h estrellas | Índice H adaptado a GitHub |
 | `impact_score` | stars + (forks×2) + followers | Score de impacto compuesto |
 
-> **Cálculo del H-Index:** Un desarrollador tiene h-index = h si tiene exactamente h repositorios con al menos h estrellas cada uno. El promedio del ecosistema es **5.1**.
 
 #### Métricas Técnicas
 
@@ -211,31 +210,12 @@ Sección 10 (Celdas 35-37) → Generación del dashboard web
 | `active_developer_pct` | 98.5% |
 | `avg_account_age_days` | 3,280 días |
 
----
 
 ## Sección 8: Documentación del AI Agent
 
 ### Arquitectura del Agente
 
-El `ClassificationAgent` es un agente autónomo basado en GPT-4 con **tool use** que clasifica repositorios de GitHub en categorías CIIU. A diferencia del clasificador simple (`IndustryClassifier`), el agente decide autónomamente qué información adicional necesita antes de emitir su clasificación final.
-```
-┌─────────────────────────────────────────────┐
-│           ClassificationAgent               │
-│                                             │
-│  Input: nombre, descripción, lenguaje       │
-│                                             │
-│  Loop autónomo (máx. 6 pasos):              │
-│    1. GPT-4 analiza info disponible         │
-│    2. ¿Necesita más contexto?               │
-│       → llama get_readme()                  │
-│       → llama get_languages()               │
-│    3. Cuando tiene suficiente info:         │
-│       → llama classify_industry()           │
-│         (detiene el loop)                   │
-│                                             │
-│  Fallback: industria J, confianza "low"     │
-└─────────────────────────────────────────────┘
-```
+El ClassificationAgent es un agente autónomo basado en GPT-4 c que clasifica repositorios de GitHub en categorías CIIU. A
 
 ### Descripción de Herramientas (Tools)
 
@@ -245,34 +225,6 @@ El `ClassificationAgent` es un agente autónomo basado en GPT-4 con **tool use**
 | `get_languages` | Obtiene el desglose de lenguajes del repo | `owner`, `repo` |
 | `classify_industry` | Emite la clasificación CIIU final | `industry_code`, `industry_name`, `confidence`, `reasoning` |
 
-### Ejemplo de Ejecución Real (del Notebook)
-```
-Repository : repo_0
-Description: A TypeScript project for industry O.
-Language   : TypeScript
-
---- Agent Step 1 ---
-🔧 Tool called: classify_industry(...)
-✅ Classification: industry_code=F, confidence=medium
-
-Final Classification:
-{
-  "industry_code": "F",
-  "industry_name": "Construction",
-  "confidence"   : "medium",
-  "reasoning"    : "Synthetic classification."
-}
-```
-
-### Características del Agente
-
-- **Autonomía:** Decide cuándo necesita más información sin intervención humana
-- **Multi-tool:** Puede encadenar `get_readme` + `get_languages` antes de clasificar
-- **Razonamiento explícito:** Cada clasificación incluye campo `reasoning` con justificación
-- **Manejo de errores:** Fallback automático a industria J con confianza `low` si no converge
-- **Logging:** Cada paso queda registrado para auditoría y debugging
-
----
 
 ## Sección 9: Limitaciones
 
@@ -280,16 +232,13 @@ Final Classification:
 Este notebook se ejecutó en `DEMO_MODE = True`, lo que significa que los 200 usuarios y 1,400 repositorios son datos generados aleatoriamente con una semilla fija (`seed=42`). Los resultados reales obtenidos con `DEMO_MODE = False` y tokens válidos de GitHub y OpenAI pueden diferir significativamente de los mostrados aquí.
 
 ### 2. Sesgo en la Recolección de Datos
-La búsqueda de usuarios depende de que ellos mismos declaren su ubicación en su perfil de GitHub. Muchos desarrolladores peruanos no tienen `location` configurado, subestimando el tamaño real de la comunidad. Además, la Search API de GitHub limita los resultados a 1,000 por consulta, haciendo imposible capturar el universo completo.
+La búsqueda de usuarios depende de que ellos mismos declaren su ubicación en su perfil de GitHub. Muchos desarrolladores peruanos no tienen location configurado, subestimando el tamaño real de la comunidad. Además, la Search API de GitHub limita los resultados a 1,000 por consulta, haciendo imposible capturar el universo completo.
 
 ### 3. Limitaciones de la Clasificación con GPT-4
-Los repositorios con descripciones ambiguas, vacías o muy técnicas son difíciles de clasificar con precisión. Proyectos genéricos (hello-world, dotfiles, portfolios) tienden a caer en la categoría J por defecto. Un mismo repositorio podría pertenecer a múltiples industrias, pero el sistema solo asigna una categoría CIIU.
+Los repositorios con descripciones ambiguas, vacías o muy técnicas son difíciles de clasificar con precisión. P
 
 ### 4. Solo Repositorios Públicos
 La API de GitHub solo expone repositorios públicos. Todo el trabajo privado y comercial — que representa la mayor parte de la actividad profesional real — es invisible para este análisis, sesgando los resultados hacia proyectos personales y académicos.
-
-### 5. Costo de la API de OpenAI
-Clasificar 1,000+ repositorios con GPT-4 tiene un costo aproximado de $5–15 USD, limitando la frecuencia de actualización del análisis.
 
 ---
 
@@ -310,8 +259,6 @@ Github-Peru-Analytics/
     └── metrics/
         └── ecosystem_metrics.json
 ```
-
----
 
 ## Tecnologías Utilizadas
 
