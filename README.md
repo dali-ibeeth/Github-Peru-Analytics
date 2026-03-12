@@ -68,46 +68,33 @@ Para cada usuario se extrajeron todos sus repositorios propios (no forks), junto
 
 ### Manejo del Rate Limiting
 
-Se implementaron tres estrategias de protección:
-
-1. **Retry automático con backoff exponencial** usando `tenacity` — 3 intentos, espera entre 4 y 60 segundos
-2. **Monitoreo en tiempo real** del header `X-RateLimit-Remaining` — pausa automática cuando quedan menos de 10 requests
-3. **Paginación controlada** con máximo 100 items por página respetando el límite de 1,000 resultados de la Search API
-
 | Autenticación | Límite |
 |---------------|--------|
-| Con token | 5,000 requests/hora ✅ |
-| Sin token | 60 requests/hora ❌ |
+| Con token | 5,000 requests/hora  |
+| Sin token | 60 requests/hora  |
 
----
+
 
 ## Sección 4: Funcionalidades del Dashboard
 
 El dashboard incluye **5 páginas interactivas**:
 
-### 🏠 Overview
+###  Overview
 - 5 KPIs del ecosistema: desarrolladores, repositorios, estrellas, forks y % activos
 - Top 10 desarrolladores por Impact Score
-- Distribución de industrias (gráfico de dona)
+- Distribución de industrias 
 - Tendencia de nuevos desarrolladores por año
 - Top lenguajes de programación
-- Scatter Stars vs Forks por lenguaje (escala logarítmica)
+- Scatter Stars vs Forks por lenguaje 
 
-### 👥 Developer Explorer
-- Tabla filtrable y ordenable con 200 desarrolladores
-- Filtros por: nombre de usuario, mínimo de estrellas, lenguaje principal, estado activo/inactivo
-- Histograma de distribución de Impact Score
-- Histograma de distribución de H-Index
-- Scatter Followers vs Stars con tamaño proporcional al H-Index
-
-### 📦 Repository Browser
+### Repository Browser
 - Búsqueda por nombre o descripción
 - Filtros por lenguaje, industria CIIU y nivel de confianza de clasificación
 - Top 15 repositorios por estrellas
 - Repositorios creados por año
-- Distribución de estrellas (histograma)
+- Distribución de estrellas 
 
-### 🏭 Industry Analysis
+###  Industry Analysis
 - Gráfico de barras de repos por industria
 - Gráfico de participación (pie) por industria
 - Heatmap Lenguaje × Industria (top 10 × top 10)
@@ -115,17 +102,19 @@ El dashboard incluye **5 páginas interactivas**:
 
 ### 💻 Language Analytics
 - Top 15 lenguajes por cantidad de repos
-- Share de lenguajes top 10 (gráfico de dona)
+- Share de lenguajes top 10 
 - Promedio de estrellas por lenguaje
 - Promedio de forks por lenguaje
-- Heatmap Lenguaje × Industria
 - Explorador de repos por lenguaje seleccionado
 
 🌐 **Dashboard en vivo:** https://profound-mandazi-d4b810.netlify.app
 
-> 📸 *(Insertar capturas de pantalla de cada página aquí)*
+<img width="1896" height="843" alt="{DDB38A71-6B4F-4B51-8D63-75F8A5077BDC}" src="https://github.com/user-attachments/assets/5a1531e7-4074-4cd6-8eee-33710b6be8b6" />
 
----
+<img width="1658" height="849" alt="{CE410554-90FE-4D93-B288-2BD8CB4CA14E}" src="https://github.com/user-attachments/assets/e8665e75-e28a-43c9-9de6-a2321de45ba0" />
+
+<img width="1561" height="888" alt="{00A9B7FE-AB48-4D48-BD2B-40038DC6471F}" src="https://github.com/user-attachments/assets/22b2baef-d0ce-49d9-bfd2-cd5cdf11d691" />
+
 
 ## Sección 5: Instalación
 
@@ -137,45 +126,16 @@ pip install requests python-dotenv openai tiktoken pandas numpy \
 
 ### Paso 2: Configurar GitHub Token
 
-1. Ve a **GitHub → Settings → Developer Settings → Personal Access Tokens → Tokens (classic)**
-2. Click en **"Generate new token (classic)"**
-3. Configura:
-   - **Note:** `GitHub Peru Analytics`
-   - **Expiration:** No expiration
-   - **Scopes:** selecciona `public_repo` y `read:user`
-4. Copia el token generado
-
 ### Paso 3: Configurar OpenAI API Key
-
-1. Ve a **https://platform.openai.com/api-keys**
-2. Click en **"Create new secret key"**
-3. Copia la key generada
 
 ### Paso 4: Crear archivo `.env`
 ```
-GITHUB_TOKEN=ghp_tu_token_aqui
-OPENAI_API_KEY=sk-tu_api_key_aqui
+GITHUB_TOKEN=................
+OPENAI_API_KEY=.............
 ```
-
-> ⚠️ **NUNCA subas tu `.env` a GitHub. Agrégalo al `.gitignore`.**
-
----
 
 ## Sección 6: Uso
 
-### Google Colab (Recomendado)
-
-1. Abre `GITHUB_peru_analytics.ipynb` en Google Colab
-2. Configura tus tokens en la celda de configuración
-3. Para datos reales: cambia `DEMO_MODE = False`
-4. Ejecuta todas las celdas: **Runtime → Run all**
-5. Descarga `dashboard.html` y súbelo a [Netlify](https://netlify.com)
-
-### Modo de ejecución
-```python
-DEMO_MODE = True   # Datos sintéticos — no consume API (usado en este notebook)
-DEMO_MODE = False  # Datos reales — requiere tokens válidos
-```
 
 ### Flujo del Notebook
 ```
