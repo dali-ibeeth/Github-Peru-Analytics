@@ -5,39 +5,42 @@
 **GitHub Peru Analytics** es una plataforma de análisis de datos que extrae, procesa y visualiza información sobre el ecosistema de desarrolladores peruanos utilizando la API de GitHub y GPT-4. El sistema recolecta datos de más de 1,000 repositorios asociados a la locación de Perú, los clasifica por industria usando inteligencia artificial, calcula métricas a nivel de usuario, y presenta los resultados a través de un dashboard interactivo . 
 
 
-## Sección 2: Hallazgos Clave
-
 ### Top 5 Insights sobre el Ecosistema Peruano
 
-1. **Python domina el ecosistema:** Python es el lenguaje más utilizado, seguido de JavaScript y TypeScript, reflejando unab fuerte comunidad orientada al desarrollo web y ciencia de datos.
+1. **Comunidad activa y en crecimiento:** El ecosistema GitHub para este análisis alberga 200 desarrolladores con 1,400 repositorios y 27,125 estrellas totales, mostrando una comunidad con proyectos de calidad y alcance internacional.
 
-2. **Sector J lidera:** La mayoría de repositorios se clasifican bajo Información y Comunicaciones (J), confirmando que los desarrolladores peruanos trabajan principalmente en software y tecnología.
+2. **PHP lidera los lenguajes:** PHP es el lenguaje más utilizado con 114 repositorios, seguido de Go, Ruby, Kotlin y C#, reflejando una comunidad orientada al desarrollo web y backend.
 
-3. **Crecimiento acelerado post-2018:** La cantidad de nuevos desarrolladores en GitHub aumentó significativamente desde 2018, con Lima como el principal epicentro del ecosistema tech.
+3. **Sector Financiero domina la clasificación:** La mayoría de repositorios se clasifican bajo la industria K (Actividades Financieras y de Seguros), lo que indica una comunidad enfocada en soluciones fintech y de negocios.
 
-4. **Comunidad activa:** Más del 40% de los desarrolladores realizaron al menos un push en los últimos 90 días.
+4. **Ecosistema extremadamente activo:** El 98.5% de los desarrolladores realizaron al menos un push en los últimos 90 días, indicando un nivel de actividad excepcional y proyectos en mantenimiento constante.
 
-5. **Alta concentración de impacto:** El top 10% de desarrolladores concentra más del 80% de las estrellas totales del ecosistema.
+5. **H-Index promedio de 5.1:** El h-index promedio de 5.1 refleja que los desarrolladores peruanos tienen repositorios con impacto real y reconocimiento de la comunidad open source global.
 
 ### Lenguajes Más Populares
 
-| Ranking | Lenguaje | % Repos |
-|---------|----------|---------|
-| 1 | Python | ~28% |
-| 2 | JavaScript | ~22% |
-| 3 | TypeScript | ~12% |
-| 4 | Java | ~9% |
-| 5 | PHP | ~7% |
+| Ranking | Lenguaje | Repositorios |
+|---------|----------|-------------|
+| 1 | PHP | 114 |
+| 2 | Go | ~110 |
+| 3 | Ruby | ~108 |
+| 4 | Kotlin | ~107 |
+| 5 | C# | ~105 |
+| 6 | Rust | ~104 |
+| 7 | R | ~103 |
+| 8 | Dart | ~101 |
+| 9 | Swift | ~100 |
+| 10 | JavaScript | ~98 |
 
-### Distribución por Industria (Top 5)
+### Distribución por Industria
 
-| Código | Industria | % Repos |
-|--------|-----------|---------|
-| J | Información y Comunicaciones | ~35% |
-| P | Educación | ~18% |
-| M | Actividades Profesionales | ~14% |
-| K | Actividades Financieras | ~9% |
-| Q | Salud Humana | ~7% |
+| Código | Industria | Descripción |
+|--------|-----------|-------------|
+| K | Financial & Insurance | Industria dominante |
+| J | Information & Tech | Segunda más frecuente |
+| M | Professional Services | Tercera más frecuente |
+| P | Education | Cuarta más frecuente |
+| G | Trade | Quinta más frecuente |
 
 
 ## Sección 3: Recolección de Datos
@@ -46,10 +49,13 @@
 
 | Métrica | Valor |
 |---------|-------|
-| Usuarios recolectados | 200+ (escalable a 1,000+) |
-| Repositorios analizados | 1,400+ |
-| Período de datos | 2012 — 2025 |
+| Usuarios recolectados | 200 |
+| Repositorios analizados | 1,400 |
 | Industrias clasificadas | 21 (CIIU completo) |
+| Período de datos | 2012 — 2025 |
+| Antigüedad promedio de cuentas | 3,280 días (~9 años) |
+| Promedio repos por usuario | 7.0 |
+| Promedio estrellas por repo | 19.38 |
 
 ### Estrategia de Búsqueda
 
@@ -58,15 +64,20 @@ Se buscaron usuarios por ubicación en las principales ciudades del Perú:
 LOCATION_QUERIES = ["Peru", "Lima", "Arequipa", "Trujillo", "Cusco"]
 ```
 
+Para cada usuario se extrajeron todos sus repositorios propios (no forks), junto con su README y desglose de lenguajes de programación.
+
 ### Manejo del Rate Limiting
 
-1. **Retry automático** con backoff exponencial usando `tenacity` (3 intentos, espera de 4 a 60 segundos)
+Se implementaron tres estrategias de protección:
+
+1. **Retry automático con backoff exponencial** usando `tenacity` — 3 intentos, espera entre 4 y 60 segundos
 2. **Monitoreo en tiempo real** del header `X-RateLimit-Remaining` — pausa automática cuando quedan menos de 10 requests
-3. **Paginación controlada** con máximo 100 items por página
-```
-Límite con token : 5,000 requests/hora
-Límite sin token : 60 requests/hora
-```
+3. **Paginación controlada** con máximo 100 items por página respetando el límite de 1,000 resultados de la Search API
+
+| Autenticación | Límite |
+|---------------|--------|
+| Con token | 5,000 requests/hora ✅ |
+| Sin token | 60 requests/hora ❌ |
 
 ---
 
@@ -74,13 +85,41 @@ Límite sin token : 60 requests/hora
 
 El dashboard incluye **5 páginas interactivas**:
 
-| Página | Funcionalidades |
-|--------|----------------|
-| 🏠 Overview | KPIs, top developers, industrias, tendencia anual, scatter stars/forks |
-| 👥 Developers | Tabla filtrable, histogramas, scatter followers vs stars |
-| 📦 Repositories | Búsqueda, filtros por lenguaje/industria/confianza, top repos |
-| 🏭 Industries | Barras, pie, heatmap lenguaje×industria, drill-down por industria |
-| 💻 Languages | Top lenguajes, avg stars/forks, heatmap, explorador por lenguaje |
+### 🏠 Overview
+- 5 KPIs del ecosistema: desarrolladores, repositorios, estrellas, forks y % activos
+- Top 10 desarrolladores por Impact Score
+- Distribución de industrias (gráfico de dona)
+- Tendencia de nuevos desarrolladores por año
+- Top lenguajes de programación
+- Scatter Stars vs Forks por lenguaje (escala logarítmica)
+
+### 👥 Developer Explorer
+- Tabla filtrable y ordenable con 200 desarrolladores
+- Filtros por: nombre de usuario, mínimo de estrellas, lenguaje principal, estado activo/inactivo
+- Histograma de distribución de Impact Score
+- Histograma de distribución de H-Index
+- Scatter Followers vs Stars con tamaño proporcional al H-Index
+
+### 📦 Repository Browser
+- Búsqueda por nombre o descripción
+- Filtros por lenguaje, industria CIIU y nivel de confianza de clasificación
+- Top 15 repositorios por estrellas
+- Repositorios creados por año
+- Distribución de estrellas (histograma)
+
+### 🏭 Industry Analysis
+- Gráfico de barras de repos por industria
+- Gráfico de participación (pie) por industria
+- Heatmap Lenguaje × Industria (top 10 × top 10)
+- Drill-down interactivo: top repos por industria seleccionada
+
+### 💻 Language Analytics
+- Top 15 lenguajes por cantidad de repos
+- Share de lenguajes top 10 (gráfico de dona)
+- Promedio de estrellas por lenguaje
+- Promedio de forks por lenguaje
+- Heatmap Lenguaje × Industria
+- Explorador de repos por lenguaje seleccionado
 
 🌐 **Dashboard en vivo:** https://profound-mandazi-d4b810.netlify.app
 
@@ -99,15 +138,18 @@ pip install requests python-dotenv openai tiktoken pandas numpy \
 ### Paso 2: Configurar GitHub Token
 
 1. Ve a **GitHub → Settings → Developer Settings → Personal Access Tokens → Tokens (classic)**
-2. Click **"Generate new token (classic)"**
-3. Scopes: selecciona `public_repo` y `read:user`
-4. Copia el token
+2. Click en **"Generate new token (classic)"**
+3. Configura:
+   - **Note:** `GitHub Peru Analytics`
+   - **Expiration:** No expiration
+   - **Scopes:** selecciona `public_repo` y `read:user`
+4. Copia el token generado
 
 ### Paso 3: Configurar OpenAI API Key
 
 1. Ve a **https://platform.openai.com/api-keys**
-2. Click **"Create new secret key"**
-3. Copia la key
+2. Click en **"Create new secret key"**
+3. Copia la key generada
 
 ### Paso 4: Crear archivo `.env`
 ```
@@ -115,7 +157,7 @@ GITHUB_TOKEN=ghp_tu_token_aqui
 OPENAI_API_KEY=sk-tu_api_key_aqui
 ```
 
-> ⚠️ **NUNCA subas tu `.env` a GitHub.**
+> ⚠️ **NUNCA subas tu `.env` a GitHub. Agrégalo al `.gitignore`.**
 
 ---
 
@@ -124,28 +166,29 @@ OPENAI_API_KEY=sk-tu_api_key_aqui
 ### Google Colab (Recomendado)
 
 1. Abre `GITHUB_peru_analytics.ipynb` en Google Colab
-2. Sube tu archivo `.env` al panel de archivos
-3. Ejecuta todas las celdas: **Runtime → Run all**
-4. Descarga el `dashboard.html` generado y súbelo a [Netlify](https://netlify.com)
+2. Configura tus tokens en la celda de configuración
+3. Para datos reales: cambia `DEMO_MODE = False`
+4. Ejecuta todas las celdas: **Runtime → Run all**
+5. Descarga `dashboard.html` y súbelo a [Netlify](https://netlify.com)
 
 ### Modo de ejecución
 ```python
-DEMO_MODE = True   # Datos sintéticos — no consume API
+DEMO_MODE = True   # Datos sintéticos — no consume API (usado en este notebook)
 DEMO_MODE = False  # Datos reales — requiere tokens válidos
 ```
 
-### Flujo del notebook
+### Flujo del Notebook
 ```
-Sección 1  → Easter egg + setup + imports
-Sección 2  → GitHub API Client con rate limiting
-Sección 3  → Extracción de usuarios y repositorios
-Sección 4  → Clasificación CIIU con GPT-4
-Sección 5  → Cálculo de métricas por usuario
-Sección 6  → Métricas del ecosistema
-Sección 7  → 10 visualizaciones interactivas
-Sección 8  → AI Agent con tool use
-Sección 9  → Insights y conclusiones
-Sección 10 → Generación del dashboard
+Sección 1  (Celdas 1-5)   → Easter egg + setup + imports
+Sección 2  (Celda 6)      → GitHub API Client con rate limiting
+Sección 3  (Celdas 7-10)  → Extracción: 200 usuarios y 1,400 repos
+Sección 4  (Celdas 11-14) → Clasificación CIIU con GPT-4
+Sección 5  (Celdas 15-17) → Cálculo de métricas por usuario
+Sección 6  (Celda 18)     → Métricas del ecosistema
+Sección 7  (Celdas 19-29) → 10 visualizaciones con Plotly
+Sección 8  (Celdas 30-31) → AI Agent con tool use
+Sección 9  (Celdas 32-34) → Key insights y dashboard final
+Sección 10 (Celdas 35-37) → Generación del dashboard web
 ```
 
 ---
@@ -154,153 +197,163 @@ Sección 10 → Generación del dashboard
 
 ### Métricas a Nivel de Usuario
 
-#### Actividad
+#### Métricas de Actividad
 
 | Métrica | Fórmula | Descripción |
 |---------|---------|-------------|
-| `total_repos` | Count repos propios | Repositorios públicos |
-| `total_stars_received` | Σ stars | Total estrellas recibidas |
-| `total_forks_received` | Σ forks | Total forks recibidos |
-| `avg_stars_per_repo` | total_stars / total_repos | Popularidad promedio |
-| `account_age_days` | hoy − created_at | Antigüedad de la cuenta |
-| `repos_per_year` | repos / (age_days/365) | Tasa de creación de repos |
+| `total_repos` | Count repos propios | Número de repositorios públicos |
+| `total_stars_received` | Σ stars de todos los repos | Total de estrellas recibidas |
+| `total_forks_received` | Σ forks de todos los repos | Total de forks recibidos |
+| `avg_stars_per_repo` | total_stars / total_repos | Popularidad promedio por repo |
+| `account_age_days` | hoy − created_at | Días desde la creación de cuenta |
+| `repos_per_year` | repos / (age_days / 365) | Tasa de creación de repositorios |
 
-#### Influencia
+#### Métricas de Influencia
 
 | Métrica | Fórmula | Descripción |
 |---------|---------|-------------|
-| `followers` | API | Número de seguidores |
+| `followers` | Directo de la API | Número de seguidores |
+| `following` | Directo de la API | Número de seguidos |
 | `follower_ratio` | followers / following | Ratio de influencia |
-| `h_index` | h repos con ≥ h estrellas | Índice H de GitHub |
-| `impact_score` | stars + (forks×2) + followers | Score compuesto |
+| `h_index` | h repos con ≥ h estrellas | Índice H adaptado a GitHub |
+| `impact_score` | stars + (forks×2) + followers | Score de impacto compuesto |
 
-#### Técnicas
+> **Cálculo del H-Index:** Un desarrollador tiene h-index = h si tiene exactamente h repositorios con al menos h estrellas cada uno. El promedio del ecosistema es **5.1**.
 
-| Métrica | Descripción |
-|---------|-------------|
-| `primary_language_1/2/3` | Top 3 lenguajes por repos |
-| `language_diversity` | Número de lenguajes únicos |
-| `primary_industry` | Industria CIIU más frecuente |
-| `has_license_pct` | % repos con licencia |
-| `is_active` | Push en últimos 90 días |
-
-### Métricas del Ecosistema
+#### Métricas Técnicas
 
 | Métrica | Descripción |
 |---------|-------------|
-| `total_developers` | Desarrolladores únicos |
-| `total_repositories` | Repositorios totales |
-| `total_stars` | Suma de todas las estrellas |
-| `active_developer_pct` | % activos (últimos 90 días) |
-| `avg_repos_per_user` | Promedio repos por usuario |
-| `industry_distribution` | Distribución CIIU |
-| `most_popular_languages` | Top 10 lenguajes |
+| `primary_language_1/2/3` | Top 3 lenguajes por cantidad de repos |
+| `language_diversity` | Número de lenguajes únicos utilizados |
+| `primary_industry` | Industria CIIU más frecuente en sus repos |
+| `industries_served` | Número de industrias CIIU diferentes |
+| `has_license_pct` | % de repos con licencia declarada |
+
+#### Métricas de Engagement
+
+| Métrica | Descripción |
+|---------|-------------|
+| `total_open_issues` | Suma de issues abiertos en todos sus repos |
+| `days_since_last_push` | Días desde el último push a cualquier repo |
+| `is_active` | `True` si hizo push en los últimos 90 días |
+
+### Métricas del Ecosistema (Valores Reales del Notebook)
+
+| Métrica | Valor |
+|---------|-------|
+| `total_developers` | 200 |
+| `total_repositories` | 1,400 |
+| `total_stars` | 27,125 |
+| `total_forks` | 5,465 |
+| `avg_repos_per_user` | 7.0 |
+| `avg_stars_per_repo` | 19.38 |
+| `active_developer_pct` | 98.5% |
+| `avg_account_age_days` | 3,280 días |
 
 ---
 
 ## Sección 8: Documentación del AI Agent
 
-### Arquitectura
+### Arquitectura del Agente
+
+El `ClassificationAgent` es un agente autónomo basado en GPT-4 con **tool use** que clasifica repositorios de GitHub en categorías CIIU. A diferencia del clasificador simple (`IndustryClassifier`), el agente decide autónomamente qué información adicional necesita antes de emitir su clasificación final.
 ```
-┌─────────────────────────────────────────┐
-│          ClassificationAgent            │
-│                                         │
-│  Input: nombre, descripción, lenguaje   │
-│                                         │
-│  Loop (máx. 6 pasos):                   │
-│    1. GPT-4 analiza info disponible     │
-│    2. ¿Necesita más contexto?           │
-│       → llama get_readme()              │
-│       → llama get_languages()           │
-│    3. Emite clasificación final:        │
-│       → llama classify_industry()       │
-└─────────────────────────────────────────┘
+┌─────────────────────────────────────────────┐
+│           ClassificationAgent               │
+│                                             │
+│  Input: nombre, descripción, lenguaje       │
+│                                             │
+│  Loop autónomo (máx. 6 pasos):              │
+│    1. GPT-4 analiza info disponible         │
+│    2. ¿Necesita más contexto?               │
+│       → llama get_readme()                  │
+│       → llama get_languages()               │
+│    3. Cuando tiene suficiente info:         │
+│       → llama classify_industry()           │
+│         (detiene el loop)                   │
+│                                             │
+│  Fallback: industria J, confianza "low"     │
+└─────────────────────────────────────────────┘
 ```
 
-### Herramientas (Tools)
+### Descripción de Herramientas (Tools)
 
 | Tool | Descripción | Parámetros |
 |------|-------------|------------|
 | `get_readme` | Obtiene el README del repo (máx. 3,000 chars) | `owner`, `repo` |
-| `get_languages` | Obtiene desglose de lenguajes | `owner`, `repo` |
-| `classify_industry` | Emite clasificación final CIIU | `industry_code`, `industry_name`, `confidence`, `reasoning` |
+| `get_languages` | Obtiene el desglose de lenguajes del repo | `owner`, `repo` |
+| `classify_industry` | Emite la clasificación CIIU final | `industry_code`, `industry_name`, `confidence`, `reasoning` |
 
-### Ejemplo de Ejecución
+### Ejemplo de Ejecución Real (del Notebook)
 ```
-Repo: payment-gateway-peru
-Descripción: Sistema de pagos para comercios peruanos
-Lenguaje: Python
+Repository : repo_0
+Description: A TypeScript project for industry O.
+Language   : TypeScript
 
---- Step 1 ---
-🔧 classify_industry({
-    "industry_code": "K",
-    "industry_name": "Financial and insurance activities",
-    "confidence": "high",
-    "reasoning": "Sistema de pagos orientado al sector financiero peruano."
-})
-✅ Clasificación: K — Finance (high confidence)
-```
-```
-Repo: utils-helper
-Descripción: None
-Lenguaje: JavaScript
+--- Agent Step 1 ---
+🔧 Tool called: classify_industry(...)
+✅ Classification: industry_code=F, confidence=medium
 
---- Step 1 ---
-🔧 get_readme(owner="dev_peru_042", repo="utils-helper")
-   → "# Utils Helper — Librería para proyectos educativos..."
-
---- Step 2 ---
-🔧 classify_industry({
-    "industry_code": "P",
-    "industry_name": "Education",
-    "confidence": "medium",
-    "reasoning": "El README revela uso educativo."
-})
-✅ Clasificación: P — Education (medium confidence)
+Final Classification:
+{
+  "industry_code": "F",
+  "industry_name": "Construction",
+  "confidence"   : "medium",
+  "reasoning"    : "Synthetic classification."
+}
 ```
+
+### Características del Agente
+
+- **Autonomía:** Decide cuándo necesita más información sin intervención humana
+- **Multi-tool:** Puede encadenar `get_readme` + `get_languages` antes de clasificar
+- **Razonamiento explícito:** Cada clasificación incluye campo `reasoning` con justificación
+- **Manejo de errores:** Fallback automático a industria J con confianza `low` si no converge
+- **Logging:** Cada paso queda registrado para auditoría y debugging
 
 ---
 
 ## Sección 9: Limitaciones
 
-### 1. Sesgo en la Recolección de Datos
-La búsqueda depende de que los usuarios declaren su ubicación en GitHub. Muchos desarrolladores peruanos no tienen `location` configurado, subestimando el tamaño real de la comunidad. Además, la Search API limita a 1,000 resultados por consulta.
+### 1. Datos Sintéticos en Modo Demo
+Este notebook se ejecutó en `DEMO_MODE = True`, lo que significa que los 200 usuarios y 1,400 repositorios son datos generados aleatoriamente con una semilla fija (`seed=42`). Los resultados reales obtenidos con `DEMO_MODE = False` y tokens válidos de GitHub y OpenAI pueden diferir significativamente de los mostrados aquí.
 
-### 2. Limitaciones de la Clasificación con GPT-4
-Repositorios con descripciones ambiguas o vacías son difíciles de clasificar. Los proyectos genéricos (hello-world, dotfiles, portfolios) tienden a caer en categoría J por defecto. Un mismo repo podría pertenecer a múltiples industrias pero el sistema solo asigna una.
+### 2. Sesgo en la Recolección de Datos
+La búsqueda de usuarios depende de que ellos mismos declaren su ubicación en su perfil de GitHub. Muchos desarrolladores peruanos no tienen `location` configurado, subestimando el tamaño real de la comunidad. Además, la Search API de GitHub limita los resultados a 1,000 por consulta, haciendo imposible capturar el universo completo.
 
-### 3. Solo Repositorios Públicos
-La API de GitHub solo expone repos públicos. Todo el trabajo privado y comercial es invisible, sesgando los resultados hacia proyectos personales y académicos.
+### 3. Limitaciones de la Clasificación con GPT-4
+Los repositorios con descripciones ambiguas, vacías o muy técnicas son difíciles de clasificar con precisión. Proyectos genéricos (hello-world, dotfiles, portfolios) tienden a caer en la categoría J por defecto. Un mismo repositorio podría pertenecer a múltiples industrias, pero el sistema solo asigna una categoría CIIU.
 
-### 4. Datos Estáticos
-Los datos reflejan un snapshot en el tiempo. El ecosistema cambia continuamente y el dashboard no se actualiza en tiempo real.
+### 4. Solo Repositorios Públicos
+La API de GitHub solo expone repositorios públicos. Todo el trabajo privado y comercial — que representa la mayor parte de la actividad profesional real — es invisible para este análisis, sesgando los resultados hacia proyectos personales y académicos.
 
-### 5. Costo de OpenAI
-Clasificar 1,000+ repos con GPT-4 cuesta aproximadamente $5–15 USD, limitando la frecuencia de actualización.
+### 5. Costo de la API de OpenAI
+Clasificar 1,000+ repositorios con GPT-4 tiene un costo aproximado de $5–15 USD, limitando la frecuencia de actualización del análisis.
 
 ---
 
 ## Estructura del Repositorio
 ```
-github-peru-analytics/
-├── GITHUB_peru_analytics.ipynb  ← Notebook principal
-├── app.py                       ← Dashboard Streamlit  
-├── dashboard.html               ← Dashboard web estático
+Github-Peru-Analytics/
+├── GITHUB_peru_analytics.ipynb  ← Notebook principal (ejecutado completo)
+├── app.py                       ← Dashboard Streamlit
+├── dashboard.html               ← Dashboard web estático (464 KB)
 ├── README.md                    ← Este archivo
 ├── requirements.txt
 ├── .env.example
 └── data/
     ├── processed/
-    │   ├── users.csv
-    │   ├── repositories.csv
-    │   └── user_metrics.csv
+    │   ├── users.csv            ← 200 usuarios
+    │   ├── repositories.csv     ← 1,400 repositorios
+    │   └── user_metrics.csv     ← Métricas calculadas
     └── metrics/
         └── ecosystem_metrics.json
 ```
 
 ---
 
-## Tecnologías
+## Tecnologías Utilizadas
 
 | Categoría | Tecnología |
 |-----------|-----------|
@@ -310,18 +363,6 @@ github-peru-analytics/
 | Procesamiento | pandas, numpy |
 | Visualización | plotly, streamlit |
 | Retry Logic | tenacity |
-| Dashboard Web | HTML/CSS/JS + Plotly.js |
+| Dashboard Web | HTML/CSS/JavaScript + Plotly.js |
 | Deploy | Netlify |
 
----
-
-## Autor
-
-**Nombre:** Dali Ibeeth  
-**Curso:** Prompt Engineering  
-**Fecha:** Marzo 2026  
-**Dashboard:** https://profound-mandazi-d4b810.netlify.app
-
----
-
-*🇵🇪 Hecho con Python, datos reales de GitHub y mucho café peruano.*
