@@ -1,6 +1,4 @@
-# 🇵🇪 GitHub Peru Analytics: Developer Ecosystem Dashboard
-
-> **Homework 2 — Prompt Engineering** | Análisis del ecosistema de desarrolladores peruanos usando la API de GitHub y GPT-4
+# GitHub Peru Analytics: Developer Ecosystem Dashboard
 
 ---
 
