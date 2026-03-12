@@ -2,32 +2,22 @@
 
 ## Sección 1: Descripción del Proyecto
 
-**GitHub Peru Analytics** es una plataforma de análisis de datos que extrae, procesa y visualiza información sobre el ecosistema de desarrolladores peruanos utilizando la API de GitHub y GPT-4. El sistema recolecta datos de más de 1,000 repositorios asociados a Perú, los clasifica por industria usando inteligencia artificial según la clasificación CIIU (Clasificación Industrial Internacional Uniforme), calcula métricas a nivel de usuario, y presenta los resultados a través de un dashboard interactivo tanto en Streamlit como en una página web estática publicada en Netlify. Además, incorpora un agente de IA autónomo capaz de clasificar repositorios usando herramientas (tools) de forma independiente.
+**GitHub Peru Analytics** es una plataforma de análisis de datos que extrae, procesa y visualiza información sobre el ecosistema de desarrolladores peruanos utilizando la API de GitHub y GPT-4. El sistema recolecta datos de más de 1,000 repositorios asociados a la locación de Perú, los clasifica por industria usando inteligencia artificial, calcula métricas a nivel de usuario, y presenta los resultados a través de un dashboard interactivo . 
 
-### 🐍 Easter Egg de Python
-
-Antes de comenzar, ejecuta esto en Python:
-```python
-import antigravity
-```
-
-> 📸 *(Insertar captura de pantalla del Easter egg aquí)*
-
----
 
 ## Sección 2: Hallazgos Clave
 
 ### Top 5 Insights sobre el Ecosistema Peruano
 
-1. **🐍 Python domina el ecosistema:** Python es el lenguaje más utilizado, seguido de JavaScript y TypeScript, reflejando una comunidad orientada al desarrollo web y ciencia de datos.
+1. **Python domina el ecosistema:** Python es el lenguaje más utilizado, seguido de JavaScript y TypeScript, reflejando unab fuerte comunidad orientada al desarrollo web y ciencia de datos.
 
-2. **💻 Sector J lidera:** La mayoría de repositorios se clasifican bajo Información y Comunicaciones (J), confirmando que los desarrolladores peruanos trabajan principalmente en software y tecnología.
+2. **Sector J lidera:** La mayoría de repositorios se clasifican bajo Información y Comunicaciones (J), confirmando que los desarrolladores peruanos trabajan principalmente en software y tecnología.
 
-3. **📈 Crecimiento acelerado post-2018:** La cantidad de nuevos desarrolladores en GitHub aumentó significativamente desde 2018, con Lima como epicentro del ecosistema tech.
+3. **Crecimiento acelerado post-2018:** La cantidad de nuevos desarrolladores en GitHub aumentó significativamente desde 2018, con Lima como el principal epicentro del ecosistema tech.
 
-4. **⚡ Comunidad activa:** Más del 40% de los desarrolladores realizaron al menos un push en los últimos 90 días.
+4. **Comunidad activa:** Más del 40% de los desarrolladores realizaron al menos un push en los últimos 90 días.
 
-5. **🏆 Alta concentración de impacto:** El top 10% de desarrolladores concentra más del 80% de las estrellas totales del ecosistema.
+5. **Alta concentración de impacto:** El top 10% de desarrolladores concentra más del 80% de las estrellas totales del ecosistema.
 
 ### Lenguajes Más Populares
 
@@ -49,7 +39,6 @@ import antigravity
 | K | Actividades Financieras | ~9% |
 | Q | Salud Humana | ~7% |
 
----
 
 ## Sección 3: Recolección de Datos
 
