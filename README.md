@@ -1,7 +1,5 @@
 # GitHub Peru Analytics: Developer Ecosystem Dashboard
 
----
-
 ## Sección 1: Descripción del Proyecto
 
 **GitHub Peru Analytics** es una plataforma de análisis de datos que extrae, procesa y visualiza información sobre el ecosistema de desarrolladores peruanos utilizando la API de GitHub y GPT-4. El sistema recolecta datos de más de 1,000 repositorios asociados a Perú, los clasifica por industria usando inteligencia artificial según la clasificación CIIU (Clasificación Industrial Internacional Uniforme), calcula métricas a nivel de usuario, y presenta los resultados a través de un dashboard interactivo tanto en Streamlit como en una página web estática publicada en Netlify. Además, incorpora un agente de IA autónomo capaz de clasificar repositorios usando herramientas (tools) de forma independiente.
