@@ -1,0 +1,1401 @@
+repo_id,repo_name,industry_code,industry_name,confidence,reasoning
+0,repo_0,F,Construction,medium,Synthetic classification.
+1,repo_1,U,Extraterritorial organizations,high,Synthetic classification.
+2,repo_2,H,Transportation and storage,medium,Synthetic classification.
+3,repo_3,I,Accommodation and food services,medium,Synthetic classification.
+4,repo_4,S,Other service activities,low,Synthetic classification.
+5,repo_5,M,"Professional, scientific activities",medium,Synthetic classification.
+6,repo_6,K,Financial and insurance activities,low,Synthetic classification.
+7,repo_7,P,Education,high,Synthetic classification.
+8,repo_8,Q,Human health and social work,medium,Synthetic classification.
+9,repo_9,T,Activities of households,low,Synthetic classification.
+10,repo_10,R,"Arts, entertainment and recreation",high,Synthetic classification.
+11,repo_11,U,Extraterritorial organizations,low,Synthetic classification.
+12,repo_12,J,Information and communication,medium,Synthetic classification.
+13,repo_13,F,Construction,high,Synthetic classification.
+14,repo_14,U,Extraterritorial organizations,medium,Synthetic classification.
+15,repo_15,O,Public administration and defense,medium,Synthetic classification.
+16,repo_16,P,Education,high,Synthetic classification.
+17,repo_17,M,"Professional, scientific activities",medium,Synthetic classification.
+18,repo_18,H,Transportation and storage,low,Synthetic classification.
+19,repo_19,E,Water supply; sewerage,low,Synthetic classification.
+20,repo_20,E,Water supply; sewerage,high,Synthetic classification.
+21,repo_21,Q,Human health and social work,low,Synthetic classification.
+22,repo_22,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+23,repo_23,M,"Professional, scientific activities",high,Synthetic classification.
+24,repo_24,U,Extraterritorial organizations,medium,Synthetic classification.
+25,repo_25,H,Transportation and storage,low,Synthetic classification.
+26,repo_26,J,Information and communication,medium,Synthetic classification.
+27,repo_27,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+28,repo_28,B,Mining and quarrying,low,Synthetic classification.
+29,repo_29,R,"Arts, entertainment and recreation",low,Synthetic classification.
+30,repo_30,C,Manufacturing,low,Synthetic classification.
+31,repo_31,S,Other service activities,high,Synthetic classification.
+32,repo_32,E,Water supply; sewerage,low,Synthetic classification.
+33,repo_33,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+34,repo_34,N,Administrative and support activities,low,Synthetic classification.
+35,repo_35,Q,Human health and social work,high,Synthetic classification.
+36,repo_36,M,"Professional, scientific activities",medium,Synthetic classification.
+37,repo_37,E,Water supply; sewerage,medium,Synthetic classification.
+38,repo_38,N,Administrative and support activities,high,Synthetic classification.
+39,repo_39,N,Administrative and support activities,medium,Synthetic classification.
+40,repo_40,I,Accommodation and food services,medium,Synthetic classification.
+41,repo_41,L,Real estate activities,high,Synthetic classification.
+42,repo_42,N,Administrative and support activities,low,Synthetic classification.
+43,repo_43,P,Education,high,Synthetic classification.
+44,repo_44,R,"Arts, entertainment and recreation",low,Synthetic classification.
+45,repo_45,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+46,repo_46,M,"Professional, scientific activities",high,Synthetic classification.
+47,repo_47,K,Financial and insurance activities,high,Synthetic classification.
+48,repo_48,B,Mining and quarrying,low,Synthetic classification.
+49,repo_49,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+50,repo_50,T,Activities of households,high,Synthetic classification.
+51,repo_51,P,Education,low,Synthetic classification.
+52,repo_52,L,Real estate activities,high,Synthetic classification.
+53,repo_53,S,Other service activities,medium,Synthetic classification.
+54,repo_54,T,Activities of households,medium,Synthetic classification.
+55,repo_55,M,"Professional, scientific activities",low,Synthetic classification.
+56,repo_56,U,Extraterritorial organizations,high,Synthetic classification.
+57,repo_57,H,Transportation and storage,high,Synthetic classification.
+58,repo_58,U,Extraterritorial organizations,medium,Synthetic classification.
+59,repo_59,T,Activities of households,medium,Synthetic classification.
+60,repo_60,I,Accommodation and food services,low,Synthetic classification.
+61,repo_61,C,Manufacturing,low,Synthetic classification.
+62,repo_62,B,Mining and quarrying,medium,Synthetic classification.
+63,repo_63,O,Public administration and defense,high,Synthetic classification.
+64,repo_64,Q,Human health and social work,low,Synthetic classification.
+65,repo_65,B,Mining and quarrying,low,Synthetic classification.
+66,repo_66,T,Activities of households,high,Synthetic classification.
+67,repo_67,E,Water supply; sewerage,low,Synthetic classification.
+68,repo_68,Q,Human health and social work,high,Synthetic classification.
+69,repo_69,K,Financial and insurance activities,medium,Synthetic classification.
+70,repo_70,Q,Human health and social work,high,Synthetic classification.
+71,repo_71,T,Activities of households,high,Synthetic classification.
+72,repo_72,J,Information and communication,low,Synthetic classification.
+73,repo_73,L,Real estate activities,low,Synthetic classification.
+74,repo_74,T,Activities of households,high,Synthetic classification.
+75,repo_75,Q,Human health and social work,high,Synthetic classification.
+76,repo_76,C,Manufacturing,high,Synthetic classification.
+77,repo_77,M,"Professional, scientific activities",high,Synthetic classification.
+78,repo_78,E,Water supply; sewerage,high,Synthetic classification.
+79,repo_79,C,Manufacturing,high,Synthetic classification.
+80,repo_80,J,Information and communication,high,Synthetic classification.
+81,repo_81,P,Education,low,Synthetic classification.
+82,repo_82,T,Activities of households,medium,Synthetic classification.
+83,repo_83,R,"Arts, entertainment and recreation",low,Synthetic classification.
+84,repo_84,L,Real estate activities,high,Synthetic classification.
+85,repo_85,B,Mining and quarrying,medium,Synthetic classification.
+86,repo_86,P,Education,low,Synthetic classification.
+87,repo_87,B,Mining and quarrying,medium,Synthetic classification.
+88,repo_88,L,Real estate activities,high,Synthetic classification.
+89,repo_89,O,Public administration and defense,medium,Synthetic classification.
+90,repo_90,N,Administrative and support activities,high,Synthetic classification.
+91,repo_91,J,Information and communication,medium,Synthetic classification.
+92,repo_92,L,Real estate activities,low,Synthetic classification.
+93,repo_93,F,Construction,high,Synthetic classification.
+94,repo_94,L,Real estate activities,medium,Synthetic classification.
+95,repo_95,S,Other service activities,high,Synthetic classification.
+96,repo_96,F,Construction,medium,Synthetic classification.
+97,repo_97,T,Activities of households,medium,Synthetic classification.
+98,repo_98,O,Public administration and defense,high,Synthetic classification.
+99,repo_99,F,Construction,low,Synthetic classification.
+100,repo_100,P,Education,high,Synthetic classification.
+101,repo_101,C,Manufacturing,medium,Synthetic classification.
+102,repo_102,E,Water supply; sewerage,medium,Synthetic classification.
+103,repo_103,U,Extraterritorial organizations,low,Synthetic classification.
+104,repo_104,Q,Human health and social work,high,Synthetic classification.
+105,repo_105,C,Manufacturing,medium,Synthetic classification.
+106,repo_106,Q,Human health and social work,low,Synthetic classification.
+107,repo_107,K,Financial and insurance activities,low,Synthetic classification.
+108,repo_108,U,Extraterritorial organizations,high,Synthetic classification.
+109,repo_109,U,Extraterritorial organizations,medium,Synthetic classification.
+110,repo_110,N,Administrative and support activities,medium,Synthetic classification.
+111,repo_111,M,"Professional, scientific activities",high,Synthetic classification.
+112,repo_112,D,"Electricity, gas, steam supply",high,Synthetic classification.
+113,repo_113,S,Other service activities,low,Synthetic classification.
+114,repo_114,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+115,repo_115,T,Activities of households,low,Synthetic classification.
+116,repo_116,L,Real estate activities,medium,Synthetic classification.
+117,repo_117,M,"Professional, scientific activities",low,Synthetic classification.
+118,repo_118,K,Financial and insurance activities,low,Synthetic classification.
+119,repo_119,E,Water supply; sewerage,low,Synthetic classification.
+120,repo_120,T,Activities of households,medium,Synthetic classification.
+121,repo_121,P,Education,low,Synthetic classification.
+122,repo_122,J,Information and communication,low,Synthetic classification.
+123,repo_123,S,Other service activities,high,Synthetic classification.
+124,repo_124,E,Water supply; sewerage,low,Synthetic classification.
+125,repo_125,G,Wholesale and retail trade,medium,Synthetic classification.
+126,repo_126,P,Education,low,Synthetic classification.
+127,repo_127,U,Extraterritorial organizations,low,Synthetic classification.
+128,repo_128,J,Information and communication,low,Synthetic classification.
+129,repo_129,I,Accommodation and food services,medium,Synthetic classification.
+130,repo_130,J,Information and communication,high,Synthetic classification.
+131,repo_131,G,Wholesale and retail trade,high,Synthetic classification.
+132,repo_132,H,Transportation and storage,high,Synthetic classification.
+133,repo_133,P,Education,high,Synthetic classification.
+134,repo_134,P,Education,low,Synthetic classification.
+135,repo_135,S,Other service activities,high,Synthetic classification.
+136,repo_136,M,"Professional, scientific activities",medium,Synthetic classification.
+137,repo_137,J,Information and communication,medium,Synthetic classification.
+138,repo_138,K,Financial and insurance activities,high,Synthetic classification.
+139,repo_139,G,Wholesale and retail trade,high,Synthetic classification.
+140,repo_140,F,Construction,high,Synthetic classification.
+141,repo_141,K,Financial and insurance activities,medium,Synthetic classification.
+142,repo_142,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+143,repo_143,L,Real estate activities,low,Synthetic classification.
+144,repo_144,N,Administrative and support activities,low,Synthetic classification.
+145,repo_145,Q,Human health and social work,medium,Synthetic classification.
+146,repo_146,G,Wholesale and retail trade,low,Synthetic classification.
+147,repo_147,P,Education,high,Synthetic classification.
+148,repo_148,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+149,repo_149,C,Manufacturing,high,Synthetic classification.
+150,repo_150,B,Mining and quarrying,medium,Synthetic classification.
+151,repo_151,O,Public administration and defense,medium,Synthetic classification.
+152,repo_152,M,"Professional, scientific activities",low,Synthetic classification.
+153,repo_153,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+154,repo_154,D,"Electricity, gas, steam supply",high,Synthetic classification.
+155,repo_155,O,Public administration and defense,low,Synthetic classification.
+156,repo_156,G,Wholesale and retail trade,high,Synthetic classification.
+157,repo_157,T,Activities of households,low,Synthetic classification.
+158,repo_158,S,Other service activities,low,Synthetic classification.
+159,repo_159,M,"Professional, scientific activities",low,Synthetic classification.
+160,repo_160,H,Transportation and storage,high,Synthetic classification.
+161,repo_161,R,"Arts, entertainment and recreation",low,Synthetic classification.
+162,repo_162,C,Manufacturing,low,Synthetic classification.
+163,repo_163,G,Wholesale and retail trade,low,Synthetic classification.
+164,repo_164,G,Wholesale and retail trade,high,Synthetic classification.
+165,repo_165,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+166,repo_166,P,Education,medium,Synthetic classification.
+167,repo_167,S,Other service activities,high,Synthetic classification.
+168,repo_168,E,Water supply; sewerage,high,Synthetic classification.
+169,repo_169,I,Accommodation and food services,medium,Synthetic classification.
+170,repo_170,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+171,repo_171,B,Mining and quarrying,high,Synthetic classification.
+172,repo_172,O,Public administration and defense,medium,Synthetic classification.
+173,repo_173,N,Administrative and support activities,high,Synthetic classification.
+174,repo_174,N,Administrative and support activities,high,Synthetic classification.
+175,repo_175,I,Accommodation and food services,medium,Synthetic classification.
+176,repo_176,U,Extraterritorial organizations,low,Synthetic classification.
+177,repo_177,F,Construction,high,Synthetic classification.
+178,repo_178,H,Transportation and storage,high,Synthetic classification.
+179,repo_179,R,"Arts, entertainment and recreation",low,Synthetic classification.
+180,repo_180,M,"Professional, scientific activities",high,Synthetic classification.
+181,repo_181,K,Financial and insurance activities,medium,Synthetic classification.
+182,repo_182,H,Transportation and storage,high,Synthetic classification.
+183,repo_183,I,Accommodation and food services,medium,Synthetic classification.
+184,repo_184,C,Manufacturing,low,Synthetic classification.
+185,repo_185,E,Water supply; sewerage,low,Synthetic classification.
+186,repo_186,D,"Electricity, gas, steam supply",high,Synthetic classification.
+187,repo_187,L,Real estate activities,low,Synthetic classification.
+188,repo_188,R,"Arts, entertainment and recreation",high,Synthetic classification.
+189,repo_189,C,Manufacturing,high,Synthetic classification.
+190,repo_190,U,Extraterritorial organizations,medium,Synthetic classification.
+191,repo_191,T,Activities of households,medium,Synthetic classification.
+192,repo_192,E,Water supply; sewerage,medium,Synthetic classification.
+193,repo_193,J,Information and communication,low,Synthetic classification.
+194,repo_194,L,Real estate activities,high,Synthetic classification.
+195,repo_195,O,Public administration and defense,low,Synthetic classification.
+196,repo_196,P,Education,high,Synthetic classification.
+197,repo_197,T,Activities of households,medium,Synthetic classification.
+198,repo_198,R,"Arts, entertainment and recreation",low,Synthetic classification.
+199,repo_199,U,Extraterritorial organizations,medium,Synthetic classification.
+200,repo_200,Q,Human health and social work,low,Synthetic classification.
+201,repo_201,Q,Human health and social work,high,Synthetic classification.
+202,repo_202,E,Water supply; sewerage,medium,Synthetic classification.
+203,repo_203,O,Public administration and defense,medium,Synthetic classification.
+204,repo_204,H,Transportation and storage,low,Synthetic classification.
+205,repo_205,U,Extraterritorial organizations,high,Synthetic classification.
+206,repo_206,S,Other service activities,medium,Synthetic classification.
+207,repo_207,S,Other service activities,high,Synthetic classification.
+208,repo_208,P,Education,low,Synthetic classification.
+209,repo_209,T,Activities of households,high,Synthetic classification.
+210,repo_210,J,Information and communication,high,Synthetic classification.
+211,repo_211,N,Administrative and support activities,high,Synthetic classification.
+212,repo_212,K,Financial and insurance activities,medium,Synthetic classification.
+213,repo_213,Q,Human health and social work,low,Synthetic classification.
+214,repo_214,S,Other service activities,high,Synthetic classification.
+215,repo_215,S,Other service activities,low,Synthetic classification.
+216,repo_216,L,Real estate activities,low,Synthetic classification.
+217,repo_217,H,Transportation and storage,medium,Synthetic classification.
+218,repo_218,H,Transportation and storage,high,Synthetic classification.
+219,repo_219,G,Wholesale and retail trade,high,Synthetic classification.
+220,repo_220,J,Information and communication,low,Synthetic classification.
+221,repo_221,I,Accommodation and food services,low,Synthetic classification.
+222,repo_222,M,"Professional, scientific activities",medium,Synthetic classification.
+223,repo_223,M,"Professional, scientific activities",low,Synthetic classification.
+224,repo_224,C,Manufacturing,low,Synthetic classification.
+225,repo_225,G,Wholesale and retail trade,medium,Synthetic classification.
+226,repo_226,B,Mining and quarrying,high,Synthetic classification.
+227,repo_227,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+228,repo_228,C,Manufacturing,low,Synthetic classification.
+229,repo_229,H,Transportation and storage,medium,Synthetic classification.
+230,repo_230,Q,Human health and social work,low,Synthetic classification.
+231,repo_231,H,Transportation and storage,medium,Synthetic classification.
+232,repo_232,E,Water supply; sewerage,low,Synthetic classification.
+233,repo_233,G,Wholesale and retail trade,low,Synthetic classification.
+234,repo_234,E,Water supply; sewerage,high,Synthetic classification.
+235,repo_235,C,Manufacturing,high,Synthetic classification.
+236,repo_236,J,Information and communication,high,Synthetic classification.
+237,repo_237,P,Education,medium,Synthetic classification.
+238,repo_238,K,Financial and insurance activities,high,Synthetic classification.
+239,repo_239,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+240,repo_240,J,Information and communication,low,Synthetic classification.
+241,repo_241,T,Activities of households,high,Synthetic classification.
+242,repo_242,K,Financial and insurance activities,medium,Synthetic classification.
+243,repo_243,B,Mining and quarrying,high,Synthetic classification.
+244,repo_244,F,Construction,high,Synthetic classification.
+245,repo_245,I,Accommodation and food services,high,Synthetic classification.
+246,repo_246,I,Accommodation and food services,low,Synthetic classification.
+247,repo_247,P,Education,low,Synthetic classification.
+248,repo_248,Q,Human health and social work,high,Synthetic classification.
+249,repo_249,F,Construction,high,Synthetic classification.
+250,repo_250,K,Financial and insurance activities,medium,Synthetic classification.
+251,repo_251,Q,Human health and social work,high,Synthetic classification.
+252,repo_252,G,Wholesale and retail trade,medium,Synthetic classification.
+253,repo_253,R,"Arts, entertainment and recreation",high,Synthetic classification.
+254,repo_254,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+255,repo_255,P,Education,high,Synthetic classification.
+256,repo_256,L,Real estate activities,medium,Synthetic classification.
+257,repo_257,S,Other service activities,high,Synthetic classification.
+258,repo_258,K,Financial and insurance activities,medium,Synthetic classification.
+259,repo_259,F,Construction,medium,Synthetic classification.
+260,repo_260,O,Public administration and defense,medium,Synthetic classification.
+261,repo_261,K,Financial and insurance activities,high,Synthetic classification.
+262,repo_262,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+263,repo_263,D,"Electricity, gas, steam supply",high,Synthetic classification.
+264,repo_264,U,Extraterritorial organizations,high,Synthetic classification.
+265,repo_265,C,Manufacturing,medium,Synthetic classification.
+266,repo_266,M,"Professional, scientific activities",medium,Synthetic classification.
+267,repo_267,E,Water supply; sewerage,high,Synthetic classification.
+268,repo_268,C,Manufacturing,medium,Synthetic classification.
+269,repo_269,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+270,repo_270,K,Financial and insurance activities,medium,Synthetic classification.
+271,repo_271,B,Mining and quarrying,medium,Synthetic classification.
+272,repo_272,I,Accommodation and food services,low,Synthetic classification.
+273,repo_273,F,Construction,high,Synthetic classification.
+274,repo_274,S,Other service activities,high,Synthetic classification.
+275,repo_275,H,Transportation and storage,low,Synthetic classification.
+276,repo_276,K,Financial and insurance activities,low,Synthetic classification.
+277,repo_277,D,"Electricity, gas, steam supply",low,Synthetic classification.
+278,repo_278,N,Administrative and support activities,low,Synthetic classification.
+279,repo_279,H,Transportation and storage,low,Synthetic classification.
+280,repo_280,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+281,repo_281,H,Transportation and storage,low,Synthetic classification.
+282,repo_282,F,Construction,low,Synthetic classification.
+283,repo_283,C,Manufacturing,medium,Synthetic classification.
+284,repo_284,N,Administrative and support activities,medium,Synthetic classification.
+285,repo_285,H,Transportation and storage,high,Synthetic classification.
+286,repo_286,K,Financial and insurance activities,high,Synthetic classification.
+287,repo_287,P,Education,low,Synthetic classification.
+288,repo_288,K,Financial and insurance activities,high,Synthetic classification.
+289,repo_289,M,"Professional, scientific activities",low,Synthetic classification.
+290,repo_290,U,Extraterritorial organizations,low,Synthetic classification.
+291,repo_291,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+292,repo_292,M,"Professional, scientific activities",medium,Synthetic classification.
+293,repo_293,E,Water supply; sewerage,low,Synthetic classification.
+294,repo_294,B,Mining and quarrying,medium,Synthetic classification.
+295,repo_295,M,"Professional, scientific activities",low,Synthetic classification.
+296,repo_296,F,Construction,high,Synthetic classification.
+297,repo_297,E,Water supply; sewerage,low,Synthetic classification.
+298,repo_298,Q,Human health and social work,medium,Synthetic classification.
+299,repo_299,E,Water supply; sewerage,low,Synthetic classification.
+300,repo_300,L,Real estate activities,medium,Synthetic classification.
+301,repo_301,T,Activities of households,low,Synthetic classification.
+302,repo_302,P,Education,medium,Synthetic classification.
+303,repo_303,D,"Electricity, gas, steam supply",high,Synthetic classification.
+304,repo_304,G,Wholesale and retail trade,medium,Synthetic classification.
+305,repo_305,Q,Human health and social work,high,Synthetic classification.
+306,repo_306,F,Construction,high,Synthetic classification.
+307,repo_307,G,Wholesale and retail trade,medium,Synthetic classification.
+308,repo_308,P,Education,low,Synthetic classification.
+309,repo_309,C,Manufacturing,medium,Synthetic classification.
+310,repo_310,H,Transportation and storage,low,Synthetic classification.
+311,repo_311,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+312,repo_312,U,Extraterritorial organizations,medium,Synthetic classification.
+313,repo_313,T,Activities of households,medium,Synthetic classification.
+314,repo_314,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+315,repo_315,U,Extraterritorial organizations,medium,Synthetic classification.
+316,repo_316,K,Financial and insurance activities,low,Synthetic classification.
+317,repo_317,B,Mining and quarrying,low,Synthetic classification.
+318,repo_318,P,Education,low,Synthetic classification.
+319,repo_319,I,Accommodation and food services,low,Synthetic classification.
+320,repo_320,J,Information and communication,medium,Synthetic classification.
+321,repo_321,B,Mining and quarrying,low,Synthetic classification.
+322,repo_322,M,"Professional, scientific activities",low,Synthetic classification.
+323,repo_323,E,Water supply; sewerage,medium,Synthetic classification.
+324,repo_324,O,Public administration and defense,medium,Synthetic classification.
+325,repo_325,E,Water supply; sewerage,low,Synthetic classification.
+326,repo_326,G,Wholesale and retail trade,low,Synthetic classification.
+327,repo_327,H,Transportation and storage,high,Synthetic classification.
+328,repo_328,C,Manufacturing,high,Synthetic classification.
+329,repo_329,E,Water supply; sewerage,medium,Synthetic classification.
+330,repo_330,H,Transportation and storage,high,Synthetic classification.
+331,repo_331,U,Extraterritorial organizations,high,Synthetic classification.
+332,repo_332,D,"Electricity, gas, steam supply",low,Synthetic classification.
+333,repo_333,E,Water supply; sewerage,high,Synthetic classification.
+334,repo_334,T,Activities of households,low,Synthetic classification.
+335,repo_335,P,Education,high,Synthetic classification.
+336,repo_336,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+337,repo_337,S,Other service activities,low,Synthetic classification.
+338,repo_338,U,Extraterritorial organizations,high,Synthetic classification.
+339,repo_339,J,Information and communication,medium,Synthetic classification.
+340,repo_340,E,Water supply; sewerage,low,Synthetic classification.
+341,repo_341,L,Real estate activities,medium,Synthetic classification.
+342,repo_342,N,Administrative and support activities,low,Synthetic classification.
+343,repo_343,P,Education,low,Synthetic classification.
+344,repo_344,E,Water supply; sewerage,medium,Synthetic classification.
+345,repo_345,Q,Human health and social work,low,Synthetic classification.
+346,repo_346,H,Transportation and storage,medium,Synthetic classification.
+347,repo_347,B,Mining and quarrying,high,Synthetic classification.
+348,repo_348,K,Financial and insurance activities,high,Synthetic classification.
+349,repo_349,C,Manufacturing,medium,Synthetic classification.
+350,repo_350,U,Extraterritorial organizations,high,Synthetic classification.
+351,repo_351,T,Activities of households,low,Synthetic classification.
+352,repo_352,B,Mining and quarrying,high,Synthetic classification.
+353,repo_353,O,Public administration and defense,high,Synthetic classification.
+354,repo_354,R,"Arts, entertainment and recreation",low,Synthetic classification.
+355,repo_355,N,Administrative and support activities,high,Synthetic classification.
+356,repo_356,K,Financial and insurance activities,high,Synthetic classification.
+357,repo_357,S,Other service activities,low,Synthetic classification.
+358,repo_358,P,Education,low,Synthetic classification.
+359,repo_359,T,Activities of households,low,Synthetic classification.
+360,repo_360,M,"Professional, scientific activities",medium,Synthetic classification.
+361,repo_361,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+362,repo_362,L,Real estate activities,low,Synthetic classification.
+363,repo_363,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+364,repo_364,N,Administrative and support activities,high,Synthetic classification.
+365,repo_365,J,Information and communication,low,Synthetic classification.
+366,repo_366,D,"Electricity, gas, steam supply",low,Synthetic classification.
+367,repo_367,J,Information and communication,low,Synthetic classification.
+368,repo_368,R,"Arts, entertainment and recreation",high,Synthetic classification.
+369,repo_369,U,Extraterritorial organizations,low,Synthetic classification.
+370,repo_370,J,Information and communication,medium,Synthetic classification.
+371,repo_371,I,Accommodation and food services,high,Synthetic classification.
+372,repo_372,E,Water supply; sewerage,medium,Synthetic classification.
+373,repo_373,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+374,repo_374,F,Construction,medium,Synthetic classification.
+375,repo_375,L,Real estate activities,medium,Synthetic classification.
+376,repo_376,L,Real estate activities,medium,Synthetic classification.
+377,repo_377,M,"Professional, scientific activities",high,Synthetic classification.
+378,repo_378,Q,Human health and social work,medium,Synthetic classification.
+379,repo_379,R,"Arts, entertainment and recreation",low,Synthetic classification.
+380,repo_380,R,"Arts, entertainment and recreation",low,Synthetic classification.
+381,repo_381,C,Manufacturing,high,Synthetic classification.
+382,repo_382,M,"Professional, scientific activities",medium,Synthetic classification.
+383,repo_383,T,Activities of households,high,Synthetic classification.
+384,repo_384,J,Information and communication,low,Synthetic classification.
+385,repo_385,R,"Arts, entertainment and recreation",high,Synthetic classification.
+386,repo_386,U,Extraterritorial organizations,medium,Synthetic classification.
+387,repo_387,R,"Arts, entertainment and recreation",low,Synthetic classification.
+388,repo_388,F,Construction,high,Synthetic classification.
+389,repo_389,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+390,repo_390,K,Financial and insurance activities,medium,Synthetic classification.
+391,repo_391,P,Education,medium,Synthetic classification.
+392,repo_392,N,Administrative and support activities,high,Synthetic classification.
+393,repo_393,K,Financial and insurance activities,medium,Synthetic classification.
+394,repo_394,I,Accommodation and food services,high,Synthetic classification.
+395,repo_395,U,Extraterritorial organizations,high,Synthetic classification.
+396,repo_396,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+397,repo_397,E,Water supply; sewerage,medium,Synthetic classification.
+398,repo_398,F,Construction,low,Synthetic classification.
+399,repo_399,P,Education,medium,Synthetic classification.
+400,repo_400,G,Wholesale and retail trade,low,Synthetic classification.
+401,repo_401,D,"Electricity, gas, steam supply",low,Synthetic classification.
+402,repo_402,L,Real estate activities,low,Synthetic classification.
+403,repo_403,M,"Professional, scientific activities",medium,Synthetic classification.
+404,repo_404,O,Public administration and defense,high,Synthetic classification.
+405,repo_405,D,"Electricity, gas, steam supply",low,Synthetic classification.
+406,repo_406,F,Construction,low,Synthetic classification.
+407,repo_407,Q,Human health and social work,high,Synthetic classification.
+408,repo_408,S,Other service activities,low,Synthetic classification.
+409,repo_409,F,Construction,high,Synthetic classification.
+410,repo_410,I,Accommodation and food services,high,Synthetic classification.
+411,repo_411,D,"Electricity, gas, steam supply",high,Synthetic classification.
+412,repo_412,T,Activities of households,low,Synthetic classification.
+413,repo_413,T,Activities of households,low,Synthetic classification.
+414,repo_414,Q,Human health and social work,medium,Synthetic classification.
+415,repo_415,S,Other service activities,high,Synthetic classification.
+416,repo_416,N,Administrative and support activities,medium,Synthetic classification.
+417,repo_417,G,Wholesale and retail trade,low,Synthetic classification.
+418,repo_418,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+419,repo_419,P,Education,high,Synthetic classification.
+420,repo_420,E,Water supply; sewerage,low,Synthetic classification.
+421,repo_421,R,"Arts, entertainment and recreation",low,Synthetic classification.
+422,repo_422,E,Water supply; sewerage,medium,Synthetic classification.
+423,repo_423,M,"Professional, scientific activities",low,Synthetic classification.
+424,repo_424,O,Public administration and defense,high,Synthetic classification.
+425,repo_425,H,Transportation and storage,low,Synthetic classification.
+426,repo_426,M,"Professional, scientific activities",medium,Synthetic classification.
+427,repo_427,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+428,repo_428,G,Wholesale and retail trade,medium,Synthetic classification.
+429,repo_429,J,Information and communication,medium,Synthetic classification.
+430,repo_430,M,"Professional, scientific activities",low,Synthetic classification.
+431,repo_431,P,Education,high,Synthetic classification.
+432,repo_432,L,Real estate activities,low,Synthetic classification.
+433,repo_433,C,Manufacturing,low,Synthetic classification.
+434,repo_434,G,Wholesale and retail trade,medium,Synthetic classification.
+435,repo_435,L,Real estate activities,high,Synthetic classification.
+436,repo_436,P,Education,medium,Synthetic classification.
+437,repo_437,M,"Professional, scientific activities",high,Synthetic classification.
+438,repo_438,Q,Human health and social work,medium,Synthetic classification.
+439,repo_439,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+440,repo_440,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+441,repo_441,L,Real estate activities,medium,Synthetic classification.
+442,repo_442,I,Accommodation and food services,high,Synthetic classification.
+443,repo_443,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+444,repo_444,I,Accommodation and food services,low,Synthetic classification.
+445,repo_445,P,Education,low,Synthetic classification.
+446,repo_446,L,Real estate activities,high,Synthetic classification.
+447,repo_447,J,Information and communication,medium,Synthetic classification.
+448,repo_448,U,Extraterritorial organizations,high,Synthetic classification.
+449,repo_449,C,Manufacturing,high,Synthetic classification.
+450,repo_450,I,Accommodation and food services,medium,Synthetic classification.
+451,repo_451,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+452,repo_452,R,"Arts, entertainment and recreation",high,Synthetic classification.
+453,repo_453,M,"Professional, scientific activities",medium,Synthetic classification.
+454,repo_454,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+455,repo_455,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+456,repo_456,S,Other service activities,medium,Synthetic classification.
+457,repo_457,O,Public administration and defense,medium,Synthetic classification.
+458,repo_458,L,Real estate activities,medium,Synthetic classification.
+459,repo_459,T,Activities of households,high,Synthetic classification.
+460,repo_460,F,Construction,low,Synthetic classification.
+461,repo_461,T,Activities of households,low,Synthetic classification.
+462,repo_462,F,Construction,high,Synthetic classification.
+463,repo_463,K,Financial and insurance activities,high,Synthetic classification.
+464,repo_464,O,Public administration and defense,low,Synthetic classification.
+465,repo_465,L,Real estate activities,medium,Synthetic classification.
+466,repo_466,M,"Professional, scientific activities",high,Synthetic classification.
+467,repo_467,H,Transportation and storage,medium,Synthetic classification.
+468,repo_468,G,Wholesale and retail trade,medium,Synthetic classification.
+469,repo_469,Q,Human health and social work,high,Synthetic classification.
+470,repo_470,D,"Electricity, gas, steam supply",high,Synthetic classification.
+471,repo_471,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+472,repo_472,P,Education,high,Synthetic classification.
+473,repo_473,D,"Electricity, gas, steam supply",high,Synthetic classification.
+474,repo_474,G,Wholesale and retail trade,high,Synthetic classification.
+475,repo_475,J,Information and communication,low,Synthetic classification.
+476,repo_476,R,"Arts, entertainment and recreation",high,Synthetic classification.
+477,repo_477,U,Extraterritorial organizations,low,Synthetic classification.
+478,repo_478,C,Manufacturing,low,Synthetic classification.
+479,repo_479,J,Information and communication,medium,Synthetic classification.
+480,repo_480,F,Construction,high,Synthetic classification.
+481,repo_481,P,Education,low,Synthetic classification.
+482,repo_482,G,Wholesale and retail trade,low,Synthetic classification.
+483,repo_483,N,Administrative and support activities,medium,Synthetic classification.
+484,repo_484,C,Manufacturing,high,Synthetic classification.
+485,repo_485,S,Other service activities,low,Synthetic classification.
+486,repo_486,O,Public administration and defense,low,Synthetic classification.
+487,repo_487,F,Construction,low,Synthetic classification.
+488,repo_488,N,Administrative and support activities,low,Synthetic classification.
+489,repo_489,I,Accommodation and food services,medium,Synthetic classification.
+490,repo_490,E,Water supply; sewerage,medium,Synthetic classification.
+491,repo_491,I,Accommodation and food services,low,Synthetic classification.
+492,repo_492,I,Accommodation and food services,medium,Synthetic classification.
+493,repo_493,C,Manufacturing,low,Synthetic classification.
+494,repo_494,T,Activities of households,low,Synthetic classification.
+495,repo_495,L,Real estate activities,medium,Synthetic classification.
+496,repo_496,U,Extraterritorial organizations,low,Synthetic classification.
+497,repo_497,H,Transportation and storage,high,Synthetic classification.
+498,repo_498,N,Administrative and support activities,medium,Synthetic classification.
+499,repo_499,C,Manufacturing,medium,Synthetic classification.
+500,repo_500,S,Other service activities,high,Synthetic classification.
+501,repo_501,S,Other service activities,high,Synthetic classification.
+502,repo_502,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+503,repo_503,G,Wholesale and retail trade,low,Synthetic classification.
+504,repo_504,J,Information and communication,high,Synthetic classification.
+505,repo_505,R,"Arts, entertainment and recreation",high,Synthetic classification.
+506,repo_506,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+507,repo_507,T,Activities of households,medium,Synthetic classification.
+508,repo_508,L,Real estate activities,high,Synthetic classification.
+509,repo_509,K,Financial and insurance activities,medium,Synthetic classification.
+510,repo_510,B,Mining and quarrying,high,Synthetic classification.
+511,repo_511,L,Real estate activities,low,Synthetic classification.
+512,repo_512,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+513,repo_513,T,Activities of households,low,Synthetic classification.
+514,repo_514,K,Financial and insurance activities,medium,Synthetic classification.
+515,repo_515,J,Information and communication,low,Synthetic classification.
+516,repo_516,F,Construction,medium,Synthetic classification.
+517,repo_517,K,Financial and insurance activities,medium,Synthetic classification.
+518,repo_518,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+519,repo_519,L,Real estate activities,high,Synthetic classification.
+520,repo_520,P,Education,medium,Synthetic classification.
+521,repo_521,N,Administrative and support activities,high,Synthetic classification.
+522,repo_522,T,Activities of households,medium,Synthetic classification.
+523,repo_523,M,"Professional, scientific activities",low,Synthetic classification.
+524,repo_524,Q,Human health and social work,high,Synthetic classification.
+525,repo_525,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+526,repo_526,O,Public administration and defense,high,Synthetic classification.
+527,repo_527,C,Manufacturing,low,Synthetic classification.
+528,repo_528,F,Construction,medium,Synthetic classification.
+529,repo_529,F,Construction,low,Synthetic classification.
+530,repo_530,Q,Human health and social work,low,Synthetic classification.
+531,repo_531,E,Water supply; sewerage,high,Synthetic classification.
+532,repo_532,J,Information and communication,low,Synthetic classification.
+533,repo_533,P,Education,medium,Synthetic classification.
+534,repo_534,N,Administrative and support activities,medium,Synthetic classification.
+535,repo_535,B,Mining and quarrying,high,Synthetic classification.
+536,repo_536,J,Information and communication,medium,Synthetic classification.
+537,repo_537,T,Activities of households,low,Synthetic classification.
+538,repo_538,K,Financial and insurance activities,medium,Synthetic classification.
+539,repo_539,I,Accommodation and food services,medium,Synthetic classification.
+540,repo_540,Q,Human health and social work,high,Synthetic classification.
+541,repo_541,S,Other service activities,low,Synthetic classification.
+542,repo_542,F,Construction,low,Synthetic classification.
+543,repo_543,G,Wholesale and retail trade,low,Synthetic classification.
+544,repo_544,G,Wholesale and retail trade,low,Synthetic classification.
+545,repo_545,D,"Electricity, gas, steam supply",low,Synthetic classification.
+546,repo_546,K,Financial and insurance activities,low,Synthetic classification.
+547,repo_547,K,Financial and insurance activities,medium,Synthetic classification.
+548,repo_548,R,"Arts, entertainment and recreation",high,Synthetic classification.
+549,repo_549,K,Financial and insurance activities,medium,Synthetic classification.
+550,repo_550,K,Financial and insurance activities,low,Synthetic classification.
+551,repo_551,G,Wholesale and retail trade,low,Synthetic classification.
+552,repo_552,Q,Human health and social work,high,Synthetic classification.
+553,repo_553,Q,Human health and social work,low,Synthetic classification.
+554,repo_554,J,Information and communication,high,Synthetic classification.
+555,repo_555,J,Information and communication,high,Synthetic classification.
+556,repo_556,K,Financial and insurance activities,medium,Synthetic classification.
+557,repo_557,D,"Electricity, gas, steam supply",high,Synthetic classification.
+558,repo_558,H,Transportation and storage,high,Synthetic classification.
+559,repo_559,B,Mining and quarrying,high,Synthetic classification.
+560,repo_560,O,Public administration and defense,low,Synthetic classification.
+561,repo_561,S,Other service activities,high,Synthetic classification.
+562,repo_562,P,Education,high,Synthetic classification.
+563,repo_563,K,Financial and insurance activities,medium,Synthetic classification.
+564,repo_564,J,Information and communication,medium,Synthetic classification.
+565,repo_565,R,"Arts, entertainment and recreation",low,Synthetic classification.
+566,repo_566,R,"Arts, entertainment and recreation",high,Synthetic classification.
+567,repo_567,S,Other service activities,medium,Synthetic classification.
+568,repo_568,K,Financial and insurance activities,low,Synthetic classification.
+569,repo_569,T,Activities of households,medium,Synthetic classification.
+570,repo_570,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+571,repo_571,K,Financial and insurance activities,medium,Synthetic classification.
+572,repo_572,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+573,repo_573,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+574,repo_574,S,Other service activities,medium,Synthetic classification.
+575,repo_575,P,Education,high,Synthetic classification.
+576,repo_576,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+577,repo_577,O,Public administration and defense,low,Synthetic classification.
+578,repo_578,M,"Professional, scientific activities",medium,Synthetic classification.
+579,repo_579,Q,Human health and social work,medium,Synthetic classification.
+580,repo_580,D,"Electricity, gas, steam supply",low,Synthetic classification.
+581,repo_581,O,Public administration and defense,low,Synthetic classification.
+582,repo_582,C,Manufacturing,low,Synthetic classification.
+583,repo_583,P,Education,medium,Synthetic classification.
+584,repo_584,J,Information and communication,high,Synthetic classification.
+585,repo_585,P,Education,low,Synthetic classification.
+586,repo_586,C,Manufacturing,medium,Synthetic classification.
+587,repo_587,F,Construction,low,Synthetic classification.
+588,repo_588,Q,Human health and social work,high,Synthetic classification.
+589,repo_589,M,"Professional, scientific activities",high,Synthetic classification.
+590,repo_590,U,Extraterritorial organizations,medium,Synthetic classification.
+591,repo_591,R,"Arts, entertainment and recreation",high,Synthetic classification.
+592,repo_592,J,Information and communication,medium,Synthetic classification.
+593,repo_593,T,Activities of households,low,Synthetic classification.
+594,repo_594,O,Public administration and defense,low,Synthetic classification.
+595,repo_595,K,Financial and insurance activities,low,Synthetic classification.
+596,repo_596,L,Real estate activities,high,Synthetic classification.
+597,repo_597,G,Wholesale and retail trade,low,Synthetic classification.
+598,repo_598,S,Other service activities,high,Synthetic classification.
+599,repo_599,I,Accommodation and food services,medium,Synthetic classification.
+600,repo_600,M,"Professional, scientific activities",medium,Synthetic classification.
+601,repo_601,T,Activities of households,medium,Synthetic classification.
+602,repo_602,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+603,repo_603,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+604,repo_604,M,"Professional, scientific activities",low,Synthetic classification.
+605,repo_605,R,"Arts, entertainment and recreation",high,Synthetic classification.
+606,repo_606,J,Information and communication,medium,Synthetic classification.
+607,repo_607,O,Public administration and defense,medium,Synthetic classification.
+608,repo_608,M,"Professional, scientific activities",high,Synthetic classification.
+609,repo_609,B,Mining and quarrying,high,Synthetic classification.
+610,repo_610,J,Information and communication,medium,Synthetic classification.
+611,repo_611,B,Mining and quarrying,medium,Synthetic classification.
+612,repo_612,S,Other service activities,high,Synthetic classification.
+613,repo_613,B,Mining and quarrying,high,Synthetic classification.
+614,repo_614,O,Public administration and defense,low,Synthetic classification.
+615,repo_615,C,Manufacturing,high,Synthetic classification.
+616,repo_616,K,Financial and insurance activities,high,Synthetic classification.
+617,repo_617,F,Construction,low,Synthetic classification.
+618,repo_618,T,Activities of households,medium,Synthetic classification.
+619,repo_619,U,Extraterritorial organizations,low,Synthetic classification.
+620,repo_620,N,Administrative and support activities,high,Synthetic classification.
+621,repo_621,U,Extraterritorial organizations,medium,Synthetic classification.
+622,repo_622,L,Real estate activities,low,Synthetic classification.
+623,repo_623,P,Education,medium,Synthetic classification.
+624,repo_624,K,Financial and insurance activities,low,Synthetic classification.
+625,repo_625,F,Construction,high,Synthetic classification.
+626,repo_626,K,Financial and insurance activities,high,Synthetic classification.
+627,repo_627,H,Transportation and storage,high,Synthetic classification.
+628,repo_628,M,"Professional, scientific activities",medium,Synthetic classification.
+629,repo_629,B,Mining and quarrying,low,Synthetic classification.
+630,repo_630,H,Transportation and storage,medium,Synthetic classification.
+631,repo_631,C,Manufacturing,medium,Synthetic classification.
+632,repo_632,N,Administrative and support activities,low,Synthetic classification.
+633,repo_633,S,Other service activities,high,Synthetic classification.
+634,repo_634,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+635,repo_635,L,Real estate activities,medium,Synthetic classification.
+636,repo_636,S,Other service activities,low,Synthetic classification.
+637,repo_637,L,Real estate activities,low,Synthetic classification.
+638,repo_638,B,Mining and quarrying,medium,Synthetic classification.
+639,repo_639,T,Activities of households,medium,Synthetic classification.
+640,repo_640,T,Activities of households,high,Synthetic classification.
+641,repo_641,H,Transportation and storage,low,Synthetic classification.
+642,repo_642,I,Accommodation and food services,low,Synthetic classification.
+643,repo_643,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+644,repo_644,C,Manufacturing,high,Synthetic classification.
+645,repo_645,I,Accommodation and food services,high,Synthetic classification.
+646,repo_646,R,"Arts, entertainment and recreation",high,Synthetic classification.
+647,repo_647,Q,Human health and social work,low,Synthetic classification.
+648,repo_648,Q,Human health and social work,low,Synthetic classification.
+649,repo_649,H,Transportation and storage,medium,Synthetic classification.
+650,repo_650,F,Construction,low,Synthetic classification.
+651,repo_651,S,Other service activities,high,Synthetic classification.
+652,repo_652,E,Water supply; sewerage,medium,Synthetic classification.
+653,repo_653,E,Water supply; sewerage,medium,Synthetic classification.
+654,repo_654,S,Other service activities,low,Synthetic classification.
+655,repo_655,E,Water supply; sewerage,low,Synthetic classification.
+656,repo_656,K,Financial and insurance activities,high,Synthetic classification.
+657,repo_657,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+658,repo_658,Q,Human health and social work,high,Synthetic classification.
+659,repo_659,L,Real estate activities,medium,Synthetic classification.
+660,repo_660,O,Public administration and defense,medium,Synthetic classification.
+661,repo_661,G,Wholesale and retail trade,medium,Synthetic classification.
+662,repo_662,C,Manufacturing,high,Synthetic classification.
+663,repo_663,G,Wholesale and retail trade,high,Synthetic classification.
+664,repo_664,J,Information and communication,medium,Synthetic classification.
+665,repo_665,U,Extraterritorial organizations,medium,Synthetic classification.
+666,repo_666,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+667,repo_667,I,Accommodation and food services,low,Synthetic classification.
+668,repo_668,F,Construction,low,Synthetic classification.
+669,repo_669,U,Extraterritorial organizations,medium,Synthetic classification.
+670,repo_670,F,Construction,high,Synthetic classification.
+671,repo_671,I,Accommodation and food services,low,Synthetic classification.
+672,repo_672,J,Information and communication,medium,Synthetic classification.
+673,repo_673,R,"Arts, entertainment and recreation",low,Synthetic classification.
+674,repo_674,N,Administrative and support activities,medium,Synthetic classification.
+675,repo_675,O,Public administration and defense,low,Synthetic classification.
+676,repo_676,H,Transportation and storage,high,Synthetic classification.
+677,repo_677,D,"Electricity, gas, steam supply",high,Synthetic classification.
+678,repo_678,S,Other service activities,high,Synthetic classification.
+679,repo_679,D,"Electricity, gas, steam supply",low,Synthetic classification.
+680,repo_680,I,Accommodation and food services,low,Synthetic classification.
+681,repo_681,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+682,repo_682,D,"Electricity, gas, steam supply",high,Synthetic classification.
+683,repo_683,F,Construction,medium,Synthetic classification.
+684,repo_684,Q,Human health and social work,high,Synthetic classification.
+685,repo_685,M,"Professional, scientific activities",medium,Synthetic classification.
+686,repo_686,G,Wholesale and retail trade,high,Synthetic classification.
+687,repo_687,O,Public administration and defense,low,Synthetic classification.
+688,repo_688,F,Construction,high,Synthetic classification.
+689,repo_689,P,Education,medium,Synthetic classification.
+690,repo_690,L,Real estate activities,medium,Synthetic classification.
+691,repo_691,I,Accommodation and food services,medium,Synthetic classification.
+692,repo_692,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+693,repo_693,Q,Human health and social work,medium,Synthetic classification.
+694,repo_694,R,"Arts, entertainment and recreation",high,Synthetic classification.
+695,repo_695,O,Public administration and defense,high,Synthetic classification.
+696,repo_696,P,Education,high,Synthetic classification.
+697,repo_697,Q,Human health and social work,high,Synthetic classification.
+698,repo_698,K,Financial and insurance activities,high,Synthetic classification.
+699,repo_699,K,Financial and insurance activities,medium,Synthetic classification.
+700,repo_700,U,Extraterritorial organizations,medium,Synthetic classification.
+701,repo_701,B,Mining and quarrying,medium,Synthetic classification.
+702,repo_702,K,Financial and insurance activities,medium,Synthetic classification.
+703,repo_703,K,Financial and insurance activities,medium,Synthetic classification.
+704,repo_704,P,Education,low,Synthetic classification.
+705,repo_705,M,"Professional, scientific activities",high,Synthetic classification.
+706,repo_706,Q,Human health and social work,medium,Synthetic classification.
+707,repo_707,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+708,repo_708,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+709,repo_709,O,Public administration and defense,medium,Synthetic classification.
+710,repo_710,G,Wholesale and retail trade,medium,Synthetic classification.
+711,repo_711,U,Extraterritorial organizations,high,Synthetic classification.
+712,repo_712,H,Transportation and storage,high,Synthetic classification.
+713,repo_713,G,Wholesale and retail trade,high,Synthetic classification.
+714,repo_714,P,Education,high,Synthetic classification.
+715,repo_715,L,Real estate activities,low,Synthetic classification.
+716,repo_716,Q,Human health and social work,low,Synthetic classification.
+717,repo_717,K,Financial and insurance activities,medium,Synthetic classification.
+718,repo_718,G,Wholesale and retail trade,medium,Synthetic classification.
+719,repo_719,K,Financial and insurance activities,low,Synthetic classification.
+720,repo_720,L,Real estate activities,medium,Synthetic classification.
+721,repo_721,H,Transportation and storage,medium,Synthetic classification.
+722,repo_722,O,Public administration and defense,medium,Synthetic classification.
+723,repo_723,J,Information and communication,high,Synthetic classification.
+724,repo_724,B,Mining and quarrying,medium,Synthetic classification.
+725,repo_725,N,Administrative and support activities,high,Synthetic classification.
+726,repo_726,K,Financial and insurance activities,medium,Synthetic classification.
+727,repo_727,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+728,repo_728,U,Extraterritorial organizations,high,Synthetic classification.
+729,repo_729,F,Construction,low,Synthetic classification.
+730,repo_730,S,Other service activities,high,Synthetic classification.
+731,repo_731,G,Wholesale and retail trade,medium,Synthetic classification.
+732,repo_732,L,Real estate activities,high,Synthetic classification.
+733,repo_733,P,Education,high,Synthetic classification.
+734,repo_734,G,Wholesale and retail trade,low,Synthetic classification.
+735,repo_735,J,Information and communication,medium,Synthetic classification.
+736,repo_736,P,Education,high,Synthetic classification.
+737,repo_737,I,Accommodation and food services,high,Synthetic classification.
+738,repo_738,T,Activities of households,low,Synthetic classification.
+739,repo_739,L,Real estate activities,high,Synthetic classification.
+740,repo_740,E,Water supply; sewerage,high,Synthetic classification.
+741,repo_741,P,Education,medium,Synthetic classification.
+742,repo_742,Q,Human health and social work,medium,Synthetic classification.
+743,repo_743,U,Extraterritorial organizations,medium,Synthetic classification.
+744,repo_744,O,Public administration and defense,medium,Synthetic classification.
+745,repo_745,P,Education,high,Synthetic classification.
+746,repo_746,F,Construction,low,Synthetic classification.
+747,repo_747,F,Construction,medium,Synthetic classification.
+748,repo_748,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+749,repo_749,P,Education,medium,Synthetic classification.
+750,repo_750,K,Financial and insurance activities,low,Synthetic classification.
+751,repo_751,C,Manufacturing,low,Synthetic classification.
+752,repo_752,C,Manufacturing,high,Synthetic classification.
+753,repo_753,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+754,repo_754,Q,Human health and social work,high,Synthetic classification.
+755,repo_755,L,Real estate activities,low,Synthetic classification.
+756,repo_756,H,Transportation and storage,low,Synthetic classification.
+757,repo_757,N,Administrative and support activities,high,Synthetic classification.
+758,repo_758,N,Administrative and support activities,medium,Synthetic classification.
+759,repo_759,O,Public administration and defense,low,Synthetic classification.
+760,repo_760,D,"Electricity, gas, steam supply",low,Synthetic classification.
+761,repo_761,K,Financial and insurance activities,low,Synthetic classification.
+762,repo_762,G,Wholesale and retail trade,high,Synthetic classification.
+763,repo_763,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+764,repo_764,L,Real estate activities,low,Synthetic classification.
+765,repo_765,G,Wholesale and retail trade,high,Synthetic classification.
+766,repo_766,G,Wholesale and retail trade,high,Synthetic classification.
+767,repo_767,O,Public administration and defense,medium,Synthetic classification.
+768,repo_768,B,Mining and quarrying,medium,Synthetic classification.
+769,repo_769,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+770,repo_770,H,Transportation and storage,low,Synthetic classification.
+771,repo_771,N,Administrative and support activities,medium,Synthetic classification.
+772,repo_772,G,Wholesale and retail trade,medium,Synthetic classification.
+773,repo_773,O,Public administration and defense,high,Synthetic classification.
+774,repo_774,P,Education,high,Synthetic classification.
+775,repo_775,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+776,repo_776,F,Construction,high,Synthetic classification.
+777,repo_777,H,Transportation and storage,high,Synthetic classification.
+778,repo_778,I,Accommodation and food services,high,Synthetic classification.
+779,repo_779,O,Public administration and defense,high,Synthetic classification.
+780,repo_780,U,Extraterritorial organizations,high,Synthetic classification.
+781,repo_781,P,Education,low,Synthetic classification.
+782,repo_782,O,Public administration and defense,medium,Synthetic classification.
+783,repo_783,L,Real estate activities,low,Synthetic classification.
+784,repo_784,E,Water supply; sewerage,medium,Synthetic classification.
+785,repo_785,E,Water supply; sewerage,high,Synthetic classification.
+786,repo_786,N,Administrative and support activities,high,Synthetic classification.
+787,repo_787,Q,Human health and social work,medium,Synthetic classification.
+788,repo_788,I,Accommodation and food services,low,Synthetic classification.
+789,repo_789,U,Extraterritorial organizations,medium,Synthetic classification.
+790,repo_790,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+791,repo_791,J,Information and communication,low,Synthetic classification.
+792,repo_792,H,Transportation and storage,medium,Synthetic classification.
+793,repo_793,Q,Human health and social work,medium,Synthetic classification.
+794,repo_794,K,Financial and insurance activities,high,Synthetic classification.
+795,repo_795,T,Activities of households,high,Synthetic classification.
+796,repo_796,K,Financial and insurance activities,low,Synthetic classification.
+797,repo_797,C,Manufacturing,high,Synthetic classification.
+798,repo_798,S,Other service activities,low,Synthetic classification.
+799,repo_799,P,Education,low,Synthetic classification.
+800,repo_800,Q,Human health and social work,low,Synthetic classification.
+801,repo_801,D,"Electricity, gas, steam supply",low,Synthetic classification.
+802,repo_802,L,Real estate activities,medium,Synthetic classification.
+803,repo_803,B,Mining and quarrying,medium,Synthetic classification.
+804,repo_804,N,Administrative and support activities,medium,Synthetic classification.
+805,repo_805,E,Water supply; sewerage,high,Synthetic classification.
+806,repo_806,T,Activities of households,medium,Synthetic classification.
+807,repo_807,I,Accommodation and food services,low,Synthetic classification.
+808,repo_808,U,Extraterritorial organizations,high,Synthetic classification.
+809,repo_809,Q,Human health and social work,high,Synthetic classification.
+810,repo_810,H,Transportation and storage,low,Synthetic classification.
+811,repo_811,B,Mining and quarrying,medium,Synthetic classification.
+812,repo_812,M,"Professional, scientific activities",medium,Synthetic classification.
+813,repo_813,E,Water supply; sewerage,medium,Synthetic classification.
+814,repo_814,J,Information and communication,medium,Synthetic classification.
+815,repo_815,B,Mining and quarrying,high,Synthetic classification.
+816,repo_816,I,Accommodation and food services,high,Synthetic classification.
+817,repo_817,I,Accommodation and food services,low,Synthetic classification.
+818,repo_818,C,Manufacturing,low,Synthetic classification.
+819,repo_819,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+820,repo_820,P,Education,medium,Synthetic classification.
+821,repo_821,J,Information and communication,high,Synthetic classification.
+822,repo_822,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+823,repo_823,O,Public administration and defense,medium,Synthetic classification.
+824,repo_824,E,Water supply; sewerage,low,Synthetic classification.
+825,repo_825,P,Education,medium,Synthetic classification.
+826,repo_826,O,Public administration and defense,low,Synthetic classification.
+827,repo_827,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+828,repo_828,L,Real estate activities,high,Synthetic classification.
+829,repo_829,L,Real estate activities,high,Synthetic classification.
+830,repo_830,I,Accommodation and food services,low,Synthetic classification.
+831,repo_831,S,Other service activities,high,Synthetic classification.
+832,repo_832,I,Accommodation and food services,high,Synthetic classification.
+833,repo_833,N,Administrative and support activities,low,Synthetic classification.
+834,repo_834,Q,Human health and social work,medium,Synthetic classification.
+835,repo_835,K,Financial and insurance activities,high,Synthetic classification.
+836,repo_836,H,Transportation and storage,high,Synthetic classification.
+837,repo_837,S,Other service activities,low,Synthetic classification.
+838,repo_838,K,Financial and insurance activities,low,Synthetic classification.
+839,repo_839,S,Other service activities,high,Synthetic classification.
+840,repo_840,B,Mining and quarrying,medium,Synthetic classification.
+841,repo_841,J,Information and communication,medium,Synthetic classification.
+842,repo_842,O,Public administration and defense,medium,Synthetic classification.
+843,repo_843,O,Public administration and defense,low,Synthetic classification.
+844,repo_844,S,Other service activities,high,Synthetic classification.
+845,repo_845,E,Water supply; sewerage,high,Synthetic classification.
+846,repo_846,S,Other service activities,low,Synthetic classification.
+847,repo_847,Q,Human health and social work,low,Synthetic classification.
+848,repo_848,N,Administrative and support activities,medium,Synthetic classification.
+849,repo_849,O,Public administration and defense,low,Synthetic classification.
+850,repo_850,F,Construction,high,Synthetic classification.
+851,repo_851,O,Public administration and defense,low,Synthetic classification.
+852,repo_852,L,Real estate activities,high,Synthetic classification.
+853,repo_853,L,Real estate activities,high,Synthetic classification.
+854,repo_854,R,"Arts, entertainment and recreation",high,Synthetic classification.
+855,repo_855,M,"Professional, scientific activities",low,Synthetic classification.
+856,repo_856,F,Construction,low,Synthetic classification.
+857,repo_857,G,Wholesale and retail trade,low,Synthetic classification.
+858,repo_858,S,Other service activities,high,Synthetic classification.
+859,repo_859,Q,Human health and social work,low,Synthetic classification.
+860,repo_860,M,"Professional, scientific activities",low,Synthetic classification.
+861,repo_861,P,Education,low,Synthetic classification.
+862,repo_862,G,Wholesale and retail trade,high,Synthetic classification.
+863,repo_863,F,Construction,medium,Synthetic classification.
+864,repo_864,B,Mining and quarrying,medium,Synthetic classification.
+865,repo_865,K,Financial and insurance activities,medium,Synthetic classification.
+866,repo_866,J,Information and communication,low,Synthetic classification.
+867,repo_867,B,Mining and quarrying,low,Synthetic classification.
+868,repo_868,G,Wholesale and retail trade,low,Synthetic classification.
+869,repo_869,M,"Professional, scientific activities",medium,Synthetic classification.
+870,repo_870,M,"Professional, scientific activities",high,Synthetic classification.
+871,repo_871,O,Public administration and defense,medium,Synthetic classification.
+872,repo_872,L,Real estate activities,high,Synthetic classification.
+873,repo_873,H,Transportation and storage,medium,Synthetic classification.
+874,repo_874,E,Water supply; sewerage,high,Synthetic classification.
+875,repo_875,M,"Professional, scientific activities",high,Synthetic classification.
+876,repo_876,C,Manufacturing,high,Synthetic classification.
+877,repo_877,G,Wholesale and retail trade,high,Synthetic classification.
+878,repo_878,Q,Human health and social work,high,Synthetic classification.
+879,repo_879,C,Manufacturing,medium,Synthetic classification.
+880,repo_880,T,Activities of households,low,Synthetic classification.
+881,repo_881,T,Activities of households,high,Synthetic classification.
+882,repo_882,J,Information and communication,low,Synthetic classification.
+883,repo_883,H,Transportation and storage,high,Synthetic classification.
+884,repo_884,M,"Professional, scientific activities",low,Synthetic classification.
+885,repo_885,G,Wholesale and retail trade,medium,Synthetic classification.
+886,repo_886,N,Administrative and support activities,medium,Synthetic classification.
+887,repo_887,O,Public administration and defense,medium,Synthetic classification.
+888,repo_888,K,Financial and insurance activities,low,Synthetic classification.
+889,repo_889,E,Water supply; sewerage,medium,Synthetic classification.
+890,repo_890,D,"Electricity, gas, steam supply",low,Synthetic classification.
+891,repo_891,G,Wholesale and retail trade,low,Synthetic classification.
+892,repo_892,U,Extraterritorial organizations,low,Synthetic classification.
+893,repo_893,G,Wholesale and retail trade,high,Synthetic classification.
+894,repo_894,G,Wholesale and retail trade,low,Synthetic classification.
+895,repo_895,K,Financial and insurance activities,medium,Synthetic classification.
+896,repo_896,H,Transportation and storage,high,Synthetic classification.
+897,repo_897,O,Public administration and defense,high,Synthetic classification.
+898,repo_898,N,Administrative and support activities,medium,Synthetic classification.
+899,repo_899,D,"Electricity, gas, steam supply",low,Synthetic classification.
+900,repo_900,K,Financial and insurance activities,low,Synthetic classification.
+901,repo_901,H,Transportation and storage,low,Synthetic classification.
+902,repo_902,H,Transportation and storage,low,Synthetic classification.
+903,repo_903,E,Water supply; sewerage,medium,Synthetic classification.
+904,repo_904,I,Accommodation and food services,medium,Synthetic classification.
+905,repo_905,K,Financial and insurance activities,medium,Synthetic classification.
+906,repo_906,M,"Professional, scientific activities",low,Synthetic classification.
+907,repo_907,B,Mining and quarrying,low,Synthetic classification.
+908,repo_908,H,Transportation and storage,low,Synthetic classification.
+909,repo_909,T,Activities of households,high,Synthetic classification.
+910,repo_910,L,Real estate activities,medium,Synthetic classification.
+911,repo_911,P,Education,high,Synthetic classification.
+912,repo_912,I,Accommodation and food services,medium,Synthetic classification.
+913,repo_913,P,Education,high,Synthetic classification.
+914,repo_914,M,"Professional, scientific activities",medium,Synthetic classification.
+915,repo_915,N,Administrative and support activities,high,Synthetic classification.
+916,repo_916,L,Real estate activities,low,Synthetic classification.
+917,repo_917,H,Transportation and storage,medium,Synthetic classification.
+918,repo_918,E,Water supply; sewerage,medium,Synthetic classification.
+919,repo_919,M,"Professional, scientific activities",low,Synthetic classification.
+920,repo_920,I,Accommodation and food services,low,Synthetic classification.
+921,repo_921,C,Manufacturing,high,Synthetic classification.
+922,repo_922,J,Information and communication,high,Synthetic classification.
+923,repo_923,J,Information and communication,low,Synthetic classification.
+924,repo_924,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+925,repo_925,I,Accommodation and food services,medium,Synthetic classification.
+926,repo_926,I,Accommodation and food services,high,Synthetic classification.
+927,repo_927,I,Accommodation and food services,high,Synthetic classification.
+928,repo_928,Q,Human health and social work,medium,Synthetic classification.
+929,repo_929,K,Financial and insurance activities,high,Synthetic classification.
+930,repo_930,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+931,repo_931,H,Transportation and storage,medium,Synthetic classification.
+932,repo_932,K,Financial and insurance activities,high,Synthetic classification.
+933,repo_933,T,Activities of households,high,Synthetic classification.
+934,repo_934,E,Water supply; sewerage,low,Synthetic classification.
+935,repo_935,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+936,repo_936,C,Manufacturing,high,Synthetic classification.
+937,repo_937,H,Transportation and storage,low,Synthetic classification.
+938,repo_938,K,Financial and insurance activities,high,Synthetic classification.
+939,repo_939,M,"Professional, scientific activities",low,Synthetic classification.
+940,repo_940,C,Manufacturing,medium,Synthetic classification.
+941,repo_941,S,Other service activities,low,Synthetic classification.
+942,repo_942,L,Real estate activities,low,Synthetic classification.
+943,repo_943,K,Financial and insurance activities,high,Synthetic classification.
+944,repo_944,B,Mining and quarrying,low,Synthetic classification.
+945,repo_945,P,Education,medium,Synthetic classification.
+946,repo_946,H,Transportation and storage,low,Synthetic classification.
+947,repo_947,F,Construction,high,Synthetic classification.
+948,repo_948,J,Information and communication,medium,Synthetic classification.
+949,repo_949,B,Mining and quarrying,low,Synthetic classification.
+950,repo_950,G,Wholesale and retail trade,high,Synthetic classification.
+951,repo_951,M,"Professional, scientific activities",medium,Synthetic classification.
+952,repo_952,D,"Electricity, gas, steam supply",low,Synthetic classification.
+953,repo_953,H,Transportation and storage,medium,Synthetic classification.
+954,repo_954,C,Manufacturing,medium,Synthetic classification.
+955,repo_955,D,"Electricity, gas, steam supply",high,Synthetic classification.
+956,repo_956,I,Accommodation and food services,low,Synthetic classification.
+957,repo_957,S,Other service activities,high,Synthetic classification.
+958,repo_958,R,"Arts, entertainment and recreation",low,Synthetic classification.
+959,repo_959,D,"Electricity, gas, steam supply",high,Synthetic classification.
+960,repo_960,E,Water supply; sewerage,low,Synthetic classification.
+961,repo_961,Q,Human health and social work,medium,Synthetic classification.
+962,repo_962,Q,Human health and social work,medium,Synthetic classification.
+963,repo_963,T,Activities of households,low,Synthetic classification.
+964,repo_964,E,Water supply; sewerage,low,Synthetic classification.
+965,repo_965,I,Accommodation and food services,medium,Synthetic classification.
+966,repo_966,E,Water supply; sewerage,low,Synthetic classification.
+967,repo_967,U,Extraterritorial organizations,low,Synthetic classification.
+968,repo_968,H,Transportation and storage,high,Synthetic classification.
+969,repo_969,K,Financial and insurance activities,medium,Synthetic classification.
+970,repo_970,M,"Professional, scientific activities",high,Synthetic classification.
+971,repo_971,D,"Electricity, gas, steam supply",low,Synthetic classification.
+972,repo_972,K,Financial and insurance activities,medium,Synthetic classification.
+973,repo_973,E,Water supply; sewerage,medium,Synthetic classification.
+974,repo_974,U,Extraterritorial organizations,medium,Synthetic classification.
+975,repo_975,O,Public administration and defense,low,Synthetic classification.
+976,repo_976,J,Information and communication,low,Synthetic classification.
+977,repo_977,C,Manufacturing,low,Synthetic classification.
+978,repo_978,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+979,repo_979,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+980,repo_980,Q,Human health and social work,low,Synthetic classification.
+981,repo_981,F,Construction,high,Synthetic classification.
+982,repo_982,L,Real estate activities,high,Synthetic classification.
+983,repo_983,P,Education,medium,Synthetic classification.
+984,repo_984,Q,Human health and social work,high,Synthetic classification.
+985,repo_985,L,Real estate activities,high,Synthetic classification.
+986,repo_986,C,Manufacturing,low,Synthetic classification.
+987,repo_987,M,"Professional, scientific activities",medium,Synthetic classification.
+988,repo_988,O,Public administration and defense,high,Synthetic classification.
+989,repo_989,G,Wholesale and retail trade,medium,Synthetic classification.
+990,repo_990,I,Accommodation and food services,high,Synthetic classification.
+991,repo_991,Q,Human health and social work,low,Synthetic classification.
+992,repo_992,E,Water supply; sewerage,medium,Synthetic classification.
+993,repo_993,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+994,repo_994,Q,Human health and social work,high,Synthetic classification.
+995,repo_995,P,Education,low,Synthetic classification.
+996,repo_996,H,Transportation and storage,high,Synthetic classification.
+997,repo_997,C,Manufacturing,high,Synthetic classification.
+998,repo_998,N,Administrative and support activities,low,Synthetic classification.
+999,repo_999,K,Financial and insurance activities,high,Synthetic classification.
+1000,repo_1000,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+1001,repo_1001,R,"Arts, entertainment and recreation",high,Synthetic classification.
+1002,repo_1002,G,Wholesale and retail trade,low,Synthetic classification.
+1003,repo_1003,U,Extraterritorial organizations,high,Synthetic classification.
+1004,repo_1004,P,Education,high,Synthetic classification.
+1005,repo_1005,L,Real estate activities,medium,Synthetic classification.
+1006,repo_1006,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+1007,repo_1007,G,Wholesale and retail trade,low,Synthetic classification.
+1008,repo_1008,M,"Professional, scientific activities",low,Synthetic classification.
+1009,repo_1009,S,Other service activities,low,Synthetic classification.
+1010,repo_1010,H,Transportation and storage,medium,Synthetic classification.
+1011,repo_1011,U,Extraterritorial organizations,high,Synthetic classification.
+1012,repo_1012,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+1013,repo_1013,E,Water supply; sewerage,medium,Synthetic classification.
+1014,repo_1014,I,Accommodation and food services,high,Synthetic classification.
+1015,repo_1015,I,Accommodation and food services,low,Synthetic classification.
+1016,repo_1016,M,"Professional, scientific activities",high,Synthetic classification.
+1017,repo_1017,O,Public administration and defense,high,Synthetic classification.
+1018,repo_1018,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+1019,repo_1019,O,Public administration and defense,low,Synthetic classification.
+1020,repo_1020,M,"Professional, scientific activities",medium,Synthetic classification.
+1021,repo_1021,I,Accommodation and food services,high,Synthetic classification.
+1022,repo_1022,C,Manufacturing,high,Synthetic classification.
+1023,repo_1023,H,Transportation and storage,high,Synthetic classification.
+1024,repo_1024,D,"Electricity, gas, steam supply",low,Synthetic classification.
+1025,repo_1025,U,Extraterritorial organizations,medium,Synthetic classification.
+1026,repo_1026,L,Real estate activities,high,Synthetic classification.
+1027,repo_1027,Q,Human health and social work,medium,Synthetic classification.
+1028,repo_1028,L,Real estate activities,high,Synthetic classification.
+1029,repo_1029,E,Water supply; sewerage,low,Synthetic classification.
+1030,repo_1030,D,"Electricity, gas, steam supply",low,Synthetic classification.
+1031,repo_1031,L,Real estate activities,medium,Synthetic classification.
+1032,repo_1032,H,Transportation and storage,medium,Synthetic classification.
+1033,repo_1033,S,Other service activities,low,Synthetic classification.
+1034,repo_1034,L,Real estate activities,low,Synthetic classification.
+1035,repo_1035,J,Information and communication,medium,Synthetic classification.
+1036,repo_1036,E,Water supply; sewerage,high,Synthetic classification.
+1037,repo_1037,D,"Electricity, gas, steam supply",low,Synthetic classification.
+1038,repo_1038,C,Manufacturing,high,Synthetic classification.
+1039,repo_1039,J,Information and communication,medium,Synthetic classification.
+1040,repo_1040,B,Mining and quarrying,low,Synthetic classification.
+1041,repo_1041,R,"Arts, entertainment and recreation",low,Synthetic classification.
+1042,repo_1042,I,Accommodation and food services,high,Synthetic classification.
+1043,repo_1043,R,"Arts, entertainment and recreation",low,Synthetic classification.
+1044,repo_1044,F,Construction,high,Synthetic classification.
+1045,repo_1045,K,Financial and insurance activities,high,Synthetic classification.
+1046,repo_1046,G,Wholesale and retail trade,low,Synthetic classification.
+1047,repo_1047,P,Education,high,Synthetic classification.
+1048,repo_1048,G,Wholesale and retail trade,medium,Synthetic classification.
+1049,repo_1049,Q,Human health and social work,high,Synthetic classification.
+1050,repo_1050,J,Information and communication,high,Synthetic classification.
+1051,repo_1051,U,Extraterritorial organizations,high,Synthetic classification.
+1052,repo_1052,O,Public administration and defense,high,Synthetic classification.
+1053,repo_1053,H,Transportation and storage,high,Synthetic classification.
+1054,repo_1054,J,Information and communication,low,Synthetic classification.
+1055,repo_1055,F,Construction,high,Synthetic classification.
+1056,repo_1056,P,Education,medium,Synthetic classification.
+1057,repo_1057,L,Real estate activities,medium,Synthetic classification.
+1058,repo_1058,L,Real estate activities,high,Synthetic classification.
+1059,repo_1059,B,Mining and quarrying,low,Synthetic classification.
+1060,repo_1060,S,Other service activities,medium,Synthetic classification.
+1061,repo_1061,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+1062,repo_1062,K,Financial and insurance activities,medium,Synthetic classification.
+1063,repo_1063,E,Water supply; sewerage,low,Synthetic classification.
+1064,repo_1064,P,Education,high,Synthetic classification.
+1065,repo_1065,C,Manufacturing,medium,Synthetic classification.
+1066,repo_1066,B,Mining and quarrying,high,Synthetic classification.
+1067,repo_1067,R,"Arts, entertainment and recreation",low,Synthetic classification.
+1068,repo_1068,G,Wholesale and retail trade,high,Synthetic classification.
+1069,repo_1069,K,Financial and insurance activities,high,Synthetic classification.
+1070,repo_1070,N,Administrative and support activities,medium,Synthetic classification.
+1071,repo_1071,B,Mining and quarrying,high,Synthetic classification.
+1072,repo_1072,G,Wholesale and retail trade,high,Synthetic classification.
+1073,repo_1073,Q,Human health and social work,high,Synthetic classification.
+1074,repo_1074,Q,Human health and social work,medium,Synthetic classification.
+1075,repo_1075,N,Administrative and support activities,medium,Synthetic classification.
+1076,repo_1076,C,Manufacturing,high,Synthetic classification.
+1077,repo_1077,D,"Electricity, gas, steam supply",low,Synthetic classification.
+1078,repo_1078,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+1079,repo_1079,U,Extraterritorial organizations,low,Synthetic classification.
+1080,repo_1080,J,Information and communication,medium,Synthetic classification.
+1081,repo_1081,T,Activities of households,medium,Synthetic classification.
+1082,repo_1082,U,Extraterritorial organizations,medium,Synthetic classification.
+1083,repo_1083,F,Construction,medium,Synthetic classification.
+1084,repo_1084,U,Extraterritorial organizations,low,Synthetic classification.
+1085,repo_1085,C,Manufacturing,high,Synthetic classification.
+1086,repo_1086,S,Other service activities,medium,Synthetic classification.
+1087,repo_1087,U,Extraterritorial organizations,high,Synthetic classification.
+1088,repo_1088,E,Water supply; sewerage,low,Synthetic classification.
+1089,repo_1089,E,Water supply; sewerage,medium,Synthetic classification.
+1090,repo_1090,M,"Professional, scientific activities",high,Synthetic classification.
+1091,repo_1091,N,Administrative and support activities,medium,Synthetic classification.
+1092,repo_1092,U,Extraterritorial organizations,low,Synthetic classification.
+1093,repo_1093,Q,Human health and social work,low,Synthetic classification.
+1094,repo_1094,G,Wholesale and retail trade,medium,Synthetic classification.
+1095,repo_1095,I,Accommodation and food services,medium,Synthetic classification.
+1096,repo_1096,P,Education,medium,Synthetic classification.
+1097,repo_1097,I,Accommodation and food services,medium,Synthetic classification.
+1098,repo_1098,N,Administrative and support activities,medium,Synthetic classification.
+1099,repo_1099,S,Other service activities,medium,Synthetic classification.
+1100,repo_1100,N,Administrative and support activities,medium,Synthetic classification.
+1101,repo_1101,N,Administrative and support activities,high,Synthetic classification.
+1102,repo_1102,K,Financial and insurance activities,low,Synthetic classification.
+1103,repo_1103,C,Manufacturing,medium,Synthetic classification.
+1104,repo_1104,C,Manufacturing,low,Synthetic classification.
+1105,repo_1105,P,Education,high,Synthetic classification.
+1106,repo_1106,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+1107,repo_1107,B,Mining and quarrying,low,Synthetic classification.
+1108,repo_1108,J,Information and communication,medium,Synthetic classification.
+1109,repo_1109,M,"Professional, scientific activities",medium,Synthetic classification.
+1110,repo_1110,D,"Electricity, gas, steam supply",high,Synthetic classification.
+1111,repo_1111,F,Construction,high,Synthetic classification.
+1112,repo_1112,B,Mining and quarrying,high,Synthetic classification.
+1113,repo_1113,I,Accommodation and food services,low,Synthetic classification.
+1114,repo_1114,N,Administrative and support activities,low,Synthetic classification.
+1115,repo_1115,K,Financial and insurance activities,low,Synthetic classification.
+1116,repo_1116,U,Extraterritorial organizations,low,Synthetic classification.
+1117,repo_1117,G,Wholesale and retail trade,medium,Synthetic classification.
+1118,repo_1118,Q,Human health and social work,medium,Synthetic classification.
+1119,repo_1119,H,Transportation and storage,medium,Synthetic classification.
+1120,repo_1120,N,Administrative and support activities,high,Synthetic classification.
+1121,repo_1121,D,"Electricity, gas, steam supply",high,Synthetic classification.
+1122,repo_1122,I,Accommodation and food services,high,Synthetic classification.
+1123,repo_1123,O,Public administration and defense,medium,Synthetic classification.
+1124,repo_1124,M,"Professional, scientific activities",high,Synthetic classification.
+1125,repo_1125,H,Transportation and storage,high,Synthetic classification.
+1126,repo_1126,H,Transportation and storage,low,Synthetic classification.
+1127,repo_1127,I,Accommodation and food services,medium,Synthetic classification.
+1128,repo_1128,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+1129,repo_1129,F,Construction,medium,Synthetic classification.
+1130,repo_1130,P,Education,medium,Synthetic classification.
+1131,repo_1131,L,Real estate activities,medium,Synthetic classification.
+1132,repo_1132,J,Information and communication,high,Synthetic classification.
+1133,repo_1133,P,Education,low,Synthetic classification.
+1134,repo_1134,J,Information and communication,low,Synthetic classification.
+1135,repo_1135,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+1136,repo_1136,N,Administrative and support activities,medium,Synthetic classification.
+1137,repo_1137,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+1138,repo_1138,J,Information and communication,high,Synthetic classification.
+1139,repo_1139,J,Information and communication,high,Synthetic classification.
+1140,repo_1140,R,"Arts, entertainment and recreation",low,Synthetic classification.
+1141,repo_1141,J,Information and communication,low,Synthetic classification.
+1142,repo_1142,E,Water supply; sewerage,medium,Synthetic classification.
+1143,repo_1143,G,Wholesale and retail trade,medium,Synthetic classification.
+1144,repo_1144,M,"Professional, scientific activities",medium,Synthetic classification.
+1145,repo_1145,N,Administrative and support activities,low,Synthetic classification.
+1146,repo_1146,J,Information and communication,high,Synthetic classification.
+1147,repo_1147,D,"Electricity, gas, steam supply",high,Synthetic classification.
+1148,repo_1148,N,Administrative and support activities,medium,Synthetic classification.
+1149,repo_1149,C,Manufacturing,high,Synthetic classification.
+1150,repo_1150,J,Information and communication,high,Synthetic classification.
+1151,repo_1151,O,Public administration and defense,high,Synthetic classification.
+1152,repo_1152,P,Education,low,Synthetic classification.
+1153,repo_1153,G,Wholesale and retail trade,low,Synthetic classification.
+1154,repo_1154,J,Information and communication,low,Synthetic classification.
+1155,repo_1155,E,Water supply; sewerage,low,Synthetic classification.
+1156,repo_1156,M,"Professional, scientific activities",high,Synthetic classification.
+1157,repo_1157,O,Public administration and defense,low,Synthetic classification.
+1158,repo_1158,H,Transportation and storage,high,Synthetic classification.
+1159,repo_1159,P,Education,medium,Synthetic classification.
+1160,repo_1160,J,Information and communication,medium,Synthetic classification.
+1161,repo_1161,T,Activities of households,medium,Synthetic classification.
+1162,repo_1162,F,Construction,medium,Synthetic classification.
+1163,repo_1163,C,Manufacturing,high,Synthetic classification.
+1164,repo_1164,I,Accommodation and food services,low,Synthetic classification.
+1165,repo_1165,F,Construction,low,Synthetic classification.
+1166,repo_1166,L,Real estate activities,low,Synthetic classification.
+1167,repo_1167,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+1168,repo_1168,N,Administrative and support activities,high,Synthetic classification.
+1169,repo_1169,T,Activities of households,low,Synthetic classification.
+1170,repo_1170,S,Other service activities,low,Synthetic classification.
+1171,repo_1171,N,Administrative and support activities,low,Synthetic classification.
+1172,repo_1172,B,Mining and quarrying,high,Synthetic classification.
+1173,repo_1173,U,Extraterritorial organizations,low,Synthetic classification.
+1174,repo_1174,R,"Arts, entertainment and recreation",high,Synthetic classification.
+1175,repo_1175,Q,Human health and social work,medium,Synthetic classification.
+1176,repo_1176,I,Accommodation and food services,medium,Synthetic classification.
+1177,repo_1177,T,Activities of households,low,Synthetic classification.
+1178,repo_1178,U,Extraterritorial organizations,high,Synthetic classification.
+1179,repo_1179,K,Financial and insurance activities,low,Synthetic classification.
+1180,repo_1180,C,Manufacturing,medium,Synthetic classification.
+1181,repo_1181,D,"Electricity, gas, steam supply",high,Synthetic classification.
+1182,repo_1182,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+1183,repo_1183,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+1184,repo_1184,O,Public administration and defense,high,Synthetic classification.
+1185,repo_1185,H,Transportation and storage,high,Synthetic classification.
+1186,repo_1186,H,Transportation and storage,high,Synthetic classification.
+1187,repo_1187,H,Transportation and storage,medium,Synthetic classification.
+1188,repo_1188,G,Wholesale and retail trade,medium,Synthetic classification.
+1189,repo_1189,J,Information and communication,low,Synthetic classification.
+1190,repo_1190,N,Administrative and support activities,low,Synthetic classification.
+1191,repo_1191,R,"Arts, entertainment and recreation",high,Synthetic classification.
+1192,repo_1192,D,"Electricity, gas, steam supply",high,Synthetic classification.
+1193,repo_1193,B,Mining and quarrying,medium,Synthetic classification.
+1194,repo_1194,G,Wholesale and retail trade,medium,Synthetic classification.
+1195,repo_1195,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+1196,repo_1196,N,Administrative and support activities,medium,Synthetic classification.
+1197,repo_1197,J,Information and communication,low,Synthetic classification.
+1198,repo_1198,H,Transportation and storage,high,Synthetic classification.
+1199,repo_1199,M,"Professional, scientific activities",high,Synthetic classification.
+1200,repo_1200,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+1201,repo_1201,B,Mining and quarrying,medium,Synthetic classification.
+1202,repo_1202,T,Activities of households,low,Synthetic classification.
+1203,repo_1203,E,Water supply; sewerage,high,Synthetic classification.
+1204,repo_1204,Q,Human health and social work,medium,Synthetic classification.
+1205,repo_1205,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+1206,repo_1206,C,Manufacturing,low,Synthetic classification.
+1207,repo_1207,N,Administrative and support activities,high,Synthetic classification.
+1208,repo_1208,N,Administrative and support activities,low,Synthetic classification.
+1209,repo_1209,S,Other service activities,high,Synthetic classification.
+1210,repo_1210,L,Real estate activities,high,Synthetic classification.
+1211,repo_1211,S,Other service activities,low,Synthetic classification.
+1212,repo_1212,T,Activities of households,medium,Synthetic classification.
+1213,repo_1213,K,Financial and insurance activities,high,Synthetic classification.
+1214,repo_1214,H,Transportation and storage,medium,Synthetic classification.
+1215,repo_1215,U,Extraterritorial organizations,medium,Synthetic classification.
+1216,repo_1216,H,Transportation and storage,medium,Synthetic classification.
+1217,repo_1217,C,Manufacturing,medium,Synthetic classification.
+1218,repo_1218,O,Public administration and defense,high,Synthetic classification.
+1219,repo_1219,B,Mining and quarrying,medium,Synthetic classification.
+1220,repo_1220,L,Real estate activities,high,Synthetic classification.
+1221,repo_1221,S,Other service activities,low,Synthetic classification.
+1222,repo_1222,U,Extraterritorial organizations,medium,Synthetic classification.
+1223,repo_1223,Q,Human health and social work,high,Synthetic classification.
+1224,repo_1224,O,Public administration and defense,high,Synthetic classification.
+1225,repo_1225,Q,Human health and social work,low,Synthetic classification.
+1226,repo_1226,B,Mining and quarrying,low,Synthetic classification.
+1227,repo_1227,J,Information and communication,high,Synthetic classification.
+1228,repo_1228,T,Activities of households,high,Synthetic classification.
+1229,repo_1229,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+1230,repo_1230,L,Real estate activities,high,Synthetic classification.
+1231,repo_1231,J,Information and communication,high,Synthetic classification.
+1232,repo_1232,I,Accommodation and food services,low,Synthetic classification.
+1233,repo_1233,F,Construction,low,Synthetic classification.
+1234,repo_1234,N,Administrative and support activities,high,Synthetic classification.
+1235,repo_1235,B,Mining and quarrying,low,Synthetic classification.
+1236,repo_1236,I,Accommodation and food services,medium,Synthetic classification.
+1237,repo_1237,Q,Human health and social work,low,Synthetic classification.
+1238,repo_1238,B,Mining and quarrying,medium,Synthetic classification.
+1239,repo_1239,F,Construction,medium,Synthetic classification.
+1240,repo_1240,D,"Electricity, gas, steam supply",high,Synthetic classification.
+1241,repo_1241,D,"Electricity, gas, steam supply",high,Synthetic classification.
+1242,repo_1242,P,Education,low,Synthetic classification.
+1243,repo_1243,B,Mining and quarrying,low,Synthetic classification.
+1244,repo_1244,I,Accommodation and food services,medium,Synthetic classification.
+1245,repo_1245,R,"Arts, entertainment and recreation",high,Synthetic classification.
+1246,repo_1246,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+1247,repo_1247,Q,Human health and social work,high,Synthetic classification.
+1248,repo_1248,L,Real estate activities,medium,Synthetic classification.
+1249,repo_1249,D,"Electricity, gas, steam supply",low,Synthetic classification.
+1250,repo_1250,H,Transportation and storage,high,Synthetic classification.
+1251,repo_1251,C,Manufacturing,high,Synthetic classification.
+1252,repo_1252,D,"Electricity, gas, steam supply",low,Synthetic classification.
+1253,repo_1253,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+1254,repo_1254,N,Administrative and support activities,high,Synthetic classification.
+1255,repo_1255,H,Transportation and storage,medium,Synthetic classification.
+1256,repo_1256,S,Other service activities,high,Synthetic classification.
+1257,repo_1257,U,Extraterritorial organizations,high,Synthetic classification.
+1258,repo_1258,P,Education,low,Synthetic classification.
+1259,repo_1259,K,Financial and insurance activities,high,Synthetic classification.
+1260,repo_1260,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+1261,repo_1261,C,Manufacturing,high,Synthetic classification.
+1262,repo_1262,F,Construction,high,Synthetic classification.
+1263,repo_1263,P,Education,high,Synthetic classification.
+1264,repo_1264,I,Accommodation and food services,low,Synthetic classification.
+1265,repo_1265,G,Wholesale and retail trade,low,Synthetic classification.
+1266,repo_1266,E,Water supply; sewerage,high,Synthetic classification.
+1267,repo_1267,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+1268,repo_1268,T,Activities of households,high,Synthetic classification.
+1269,repo_1269,J,Information and communication,medium,Synthetic classification.
+1270,repo_1270,U,Extraterritorial organizations,low,Synthetic classification.
+1271,repo_1271,D,"Electricity, gas, steam supply",high,Synthetic classification.
+1272,repo_1272,I,Accommodation and food services,low,Synthetic classification.
+1273,repo_1273,C,Manufacturing,low,Synthetic classification.
+1274,repo_1274,Q,Human health and social work,medium,Synthetic classification.
+1275,repo_1275,M,"Professional, scientific activities",medium,Synthetic classification.
+1276,repo_1276,F,Construction,low,Synthetic classification.
+1277,repo_1277,D,"Electricity, gas, steam supply",low,Synthetic classification.
+1278,repo_1278,L,Real estate activities,low,Synthetic classification.
+1279,repo_1279,G,Wholesale and retail trade,medium,Synthetic classification.
+1280,repo_1280,Q,Human health and social work,high,Synthetic classification.
+1281,repo_1281,I,Accommodation and food services,medium,Synthetic classification.
+1282,repo_1282,U,Extraterritorial organizations,medium,Synthetic classification.
+1283,repo_1283,E,Water supply; sewerage,low,Synthetic classification.
+1284,repo_1284,U,Extraterritorial organizations,low,Synthetic classification.
+1285,repo_1285,K,Financial and insurance activities,low,Synthetic classification.
+1286,repo_1286,M,"Professional, scientific activities",medium,Synthetic classification.
+1287,repo_1287,I,Accommodation and food services,high,Synthetic classification.
+1288,repo_1288,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+1289,repo_1289,O,Public administration and defense,high,Synthetic classification.
+1290,repo_1290,F,Construction,high,Synthetic classification.
+1291,repo_1291,E,Water supply; sewerage,medium,Synthetic classification.
+1292,repo_1292,G,Wholesale and retail trade,medium,Synthetic classification.
+1293,repo_1293,S,Other service activities,medium,Synthetic classification.
+1294,repo_1294,S,Other service activities,medium,Synthetic classification.
+1295,repo_1295,K,Financial and insurance activities,low,Synthetic classification.
+1296,repo_1296,I,Accommodation and food services,high,Synthetic classification.
+1297,repo_1297,S,Other service activities,medium,Synthetic classification.
+1298,repo_1298,N,Administrative and support activities,medium,Synthetic classification.
+1299,repo_1299,F,Construction,high,Synthetic classification.
+1300,repo_1300,H,Transportation and storage,medium,Synthetic classification.
+1301,repo_1301,Q,Human health and social work,high,Synthetic classification.
+1302,repo_1302,J,Information and communication,low,Synthetic classification.
+1303,repo_1303,C,Manufacturing,medium,Synthetic classification.
+1304,repo_1304,G,Wholesale and retail trade,high,Synthetic classification.
+1305,repo_1305,E,Water supply; sewerage,low,Synthetic classification.
+1306,repo_1306,M,"Professional, scientific activities",low,Synthetic classification.
+1307,repo_1307,E,Water supply; sewerage,medium,Synthetic classification.
+1308,repo_1308,T,Activities of households,medium,Synthetic classification.
+1309,repo_1309,L,Real estate activities,medium,Synthetic classification.
+1310,repo_1310,H,Transportation and storage,high,Synthetic classification.
+1311,repo_1311,N,Administrative and support activities,high,Synthetic classification.
+1312,repo_1312,M,"Professional, scientific activities",low,Synthetic classification.
+1313,repo_1313,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+1314,repo_1314,M,"Professional, scientific activities",medium,Synthetic classification.
+1315,repo_1315,Q,Human health and social work,medium,Synthetic classification.
+1316,repo_1316,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+1317,repo_1317,G,Wholesale and retail trade,low,Synthetic classification.
+1318,repo_1318,O,Public administration and defense,medium,Synthetic classification.
+1319,repo_1319,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+1320,repo_1320,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+1321,repo_1321,E,Water supply; sewerage,low,Synthetic classification.
+1322,repo_1322,Q,Human health and social work,low,Synthetic classification.
+1323,repo_1323,D,"Electricity, gas, steam supply",medium,Synthetic classification.
+1324,repo_1324,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+1325,repo_1325,S,Other service activities,medium,Synthetic classification.
+1326,repo_1326,G,Wholesale and retail trade,medium,Synthetic classification.
+1327,repo_1327,J,Information and communication,medium,Synthetic classification.
+1328,repo_1328,K,Financial and insurance activities,high,Synthetic classification.
+1329,repo_1329,O,Public administration and defense,low,Synthetic classification.
+1330,repo_1330,K,Financial and insurance activities,medium,Synthetic classification.
+1331,repo_1331,F,Construction,low,Synthetic classification.
+1332,repo_1332,C,Manufacturing,high,Synthetic classification.
+1333,repo_1333,S,Other service activities,high,Synthetic classification.
+1334,repo_1334,P,Education,high,Synthetic classification.
+1335,repo_1335,G,Wholesale and retail trade,high,Synthetic classification.
+1336,repo_1336,N,Administrative and support activities,medium,Synthetic classification.
+1337,repo_1337,U,Extraterritorial organizations,low,Synthetic classification.
+1338,repo_1338,J,Information and communication,medium,Synthetic classification.
+1339,repo_1339,U,Extraterritorial organizations,high,Synthetic classification.
+1340,repo_1340,U,Extraterritorial organizations,high,Synthetic classification.
+1341,repo_1341,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+1342,repo_1342,T,Activities of households,low,Synthetic classification.
+1343,repo_1343,P,Education,low,Synthetic classification.
+1344,repo_1344,H,Transportation and storage,low,Synthetic classification.
+1345,repo_1345,F,Construction,high,Synthetic classification.
+1346,repo_1346,P,Education,medium,Synthetic classification.
+1347,repo_1347,A,"Agriculture, forestry and fishing",medium,Synthetic classification.
+1348,repo_1348,L,Real estate activities,medium,Synthetic classification.
+1349,repo_1349,I,Accommodation and food services,low,Synthetic classification.
+1350,repo_1350,P,Education,high,Synthetic classification.
+1351,repo_1351,I,Accommodation and food services,medium,Synthetic classification.
+1352,repo_1352,E,Water supply; sewerage,high,Synthetic classification.
+1353,repo_1353,F,Construction,low,Synthetic classification.
+1354,repo_1354,T,Activities of households,medium,Synthetic classification.
+1355,repo_1355,L,Real estate activities,low,Synthetic classification.
+1356,repo_1356,U,Extraterritorial organizations,high,Synthetic classification.
+1357,repo_1357,F,Construction,low,Synthetic classification.
+1358,repo_1358,G,Wholesale and retail trade,high,Synthetic classification.
+1359,repo_1359,A,"Agriculture, forestry and fishing",low,Synthetic classification.
+1360,repo_1360,U,Extraterritorial organizations,high,Synthetic classification.
+1361,repo_1361,B,Mining and quarrying,medium,Synthetic classification.
+1362,repo_1362,O,Public administration and defense,high,Synthetic classification.
+1363,repo_1363,E,Water supply; sewerage,low,Synthetic classification.
+1364,repo_1364,R,"Arts, entertainment and recreation",high,Synthetic classification.
+1365,repo_1365,D,"Electricity, gas, steam supply",low,Synthetic classification.
+1366,repo_1366,O,Public administration and defense,low,Synthetic classification.
+1367,repo_1367,T,Activities of households,medium,Synthetic classification.
+1368,repo_1368,I,Accommodation and food services,low,Synthetic classification.
+1369,repo_1369,P,Education,high,Synthetic classification.
+1370,repo_1370,J,Information and communication,high,Synthetic classification.
+1371,repo_1371,G,Wholesale and retail trade,medium,Synthetic classification.
+1372,repo_1372,S,Other service activities,low,Synthetic classification.
+1373,repo_1373,F,Construction,medium,Synthetic classification.
+1374,repo_1374,I,Accommodation and food services,medium,Synthetic classification.
+1375,repo_1375,K,Financial and insurance activities,medium,Synthetic classification.
+1376,repo_1376,L,Real estate activities,low,Synthetic classification.
+1377,repo_1377,I,Accommodation and food services,medium,Synthetic classification.
+1378,repo_1378,G,Wholesale and retail trade,high,Synthetic classification.
+1379,repo_1379,S,Other service activities,medium,Synthetic classification.
+1380,repo_1380,D,"Electricity, gas, steam supply",high,Synthetic classification.
+1381,repo_1381,K,Financial and insurance activities,low,Synthetic classification.
+1382,repo_1382,H,Transportation and storage,medium,Synthetic classification.
+1383,repo_1383,C,Manufacturing,low,Synthetic classification.
+1384,repo_1384,H,Transportation and storage,medium,Synthetic classification.
+1385,repo_1385,U,Extraterritorial organizations,medium,Synthetic classification.
+1386,repo_1386,L,Real estate activities,high,Synthetic classification.
+1387,repo_1387,J,Information and communication,low,Synthetic classification.
+1388,repo_1388,F,Construction,low,Synthetic classification.
+1389,repo_1389,N,Administrative and support activities,medium,Synthetic classification.
+1390,repo_1390,O,Public administration and defense,low,Synthetic classification.
+1391,repo_1391,A,"Agriculture, forestry and fishing",high,Synthetic classification.
+1392,repo_1392,U,Extraterritorial organizations,low,Synthetic classification.
+1393,repo_1393,G,Wholesale and retail trade,high,Synthetic classification.
+1394,repo_1394,R,"Arts, entertainment and recreation",medium,Synthetic classification.
+1395,repo_1395,I,Accommodation and food services,high,Synthetic classification.
+1396,repo_1396,G,Wholesale and retail trade,medium,Synthetic classification.
+1397,repo_1397,C,Manufacturing,high,Synthetic classification.
+1398,repo_1398,T,Activities of households,medium,Synthetic classification.
+1399,repo_1399,I,Accommodation and food services,low,Synthetic classification.
